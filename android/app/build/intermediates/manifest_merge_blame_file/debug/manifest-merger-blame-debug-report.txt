@@ -1,0 +1,339 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.jeeva_milk"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:3:5-67
+12-->/Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:3:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.182.0] /Users/navyav/.gradle/caches/transforms-3/2c4aa7449f1f2904e68bb900cc469463/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.182.0] /Users/navyav/.gradle/caches/transforms-3/2c4aa7449f1f2904e68bb900cc469463/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->[:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-68
+14-->[:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:22-65
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+15-->[:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+16-->[com.google.firebase:firebase-messaging:23.2.1] /Users/navyav/.gradle/caches/transforms-3/848834323e22a5e5c64ca4160fe5d046/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:23:5-77
+16-->[com.google.firebase:firebase-messaging:23.2.1] /Users/navyav/.gradle/caches/transforms-3/848834323e22a5e5c64ca4160fe5d046/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:23:22-74
+17    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+17-->[com.google.firebase:firebase-messaging:23.2.1] /Users/navyav/.gradle/caches/transforms-3/848834323e22a5e5c64ca4160fe5d046/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:26:5-82
+17-->[com.google.firebase:firebase-messaging:23.2.1] /Users/navyav/.gradle/caches/transforms-3/848834323e22a5e5c64ca4160fe5d046/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:26:22-79
+18
+19    <application
+19-->/Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:5:5-24:19
+20        android:name="com.jeeva_milk.MainApplication"
+20-->/Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:6:7-38
+21        android:allowBackup="false"
+21-->/Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:10:7-34
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.7.0] /Users/navyav/.gradle/caches/transforms-3/845c42ea617b425eb1fb868d75dc0e08/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:icon="@mipmap/ic_launcher"
+24-->/Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:8:7-41
+25        android:label="@string/app_name"
+25-->/Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:7:7-39
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->/Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:9:7-52
+27        android:theme="@style/AppTheme"
+27-->/Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:11:7-38
+28        android:usesCleartextTraffic="true" >
+28-->/Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/debug/AndroidManifest.xml:8:9-44
+29        <activity
+29-->/Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/debug/AndroidManifest.xml:11:9-111
+30            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+30-->/Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/debug/AndroidManifest.xml:11:19-83
+31            android:exported="false" />
+31-->/Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/debug/AndroidManifest.xml:11:84-108
+32        <activity
+32-->/Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:12:7-23:18
+33            android:name="com.jeeva_milk.MainActivity"
+33-->/Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:13:9-37
+34            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+34-->/Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:15:9-118
+35            android:exported="true"
+35-->/Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:18:9-32
+36            android:label="@string/app_name"
+36-->/Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:14:9-41
+37            android:launchMode="singleTask"
+37-->/Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:16:9-40
+38            android:windowSoftInputMode="adjustResize" >
+38-->/Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:17:9-51
+39            <intent-filter>
+39-->/Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:19:9-22:25
+40                <action android:name="android.intent.action.MAIN" />
+40-->/Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:20:13-65
+40-->/Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:20:21-62
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->/Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:21:13-73
+42-->/Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:21:23-70
+43            </intent-filter>
+44        </activity>
+45
+46        <service
+46-->[:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-14:40
+47            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService"
+47-->[:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-103
+48            android:exported="false" />
+48-->[:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-37
+49        <service
+49-->[:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-21:19
+50            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+50-->[:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-95
+51            android:exported="false" >
+51-->[:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-37
+52            <intent-filter>
+52-->[:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:29
+53                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+53-->[:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-78
+53-->[:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:25-75
+54            </intent-filter>
+55        </service>
+56
+57        <receiver
+57-->[:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-30:20
+58            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+58-->[:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-96
+59            android:exported="true"
+59-->[:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-36
+60            android:permission="com.google.android.c2dm.permission.SEND" >
+60-->[:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-73
+61            <intent-filter>
+61-->[:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-29:29
+62                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+62-->[:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-81
+62-->[:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:25-78
+63            </intent-filter>
+64        </receiver>
+65
+66        <meta-data
+66-->[:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:32:9-34:36
+67            android:name="firebase_messaging_auto_init_enabled"
+67-->[:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:13-64
+68            android:value="true" />
+68-->[:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:13-33
+69        <meta-data
+69-->[:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:9-37:32
+70            android:name="com.google.firebase.messaging.default_notification_channel_id"
+70-->[:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-89
+71            android:value="" />
+71-->[:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-29
+72        <meta-data
+72-->[:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:9-40:47
+73            android:name="com.google.firebase.messaging.default_notification_color"
+73-->[:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-84
+74            android:resource="@color/white" />
+74-->[:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:13-44
+75        <meta-data
+75-->[:react-native-firebase_app] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:9-11:36
+76            android:name="app_data_collection_default_enabled"
+76-->[:react-native-firebase_app] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-63
+77            android:value="true" />
+77-->[:react-native-firebase_app] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-33
+78
+79        <service
+79-->[:react-native-firebase_app] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-21:19
+80            android:name="com.google.firebase.components.ComponentDiscoveryService"
+80-->[:react-native-firebase_app] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-84
+81            android:directBootAware="true"
+81-->[:react-native-firebase_app] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-43
+82            android:exported="false" >
+82-->[:react-native-firebase_app] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+83            <meta-data
+83-->[:react-native-firebase_app] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:85
+84                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+84-->[:react-native-firebase_app] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-120
+85                android:value="com.google.firebase.components.ComponentRegistrar" />
+85-->[:react-native-firebase_app] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:17-82
+86            <meta-data
+86-->[com.google.firebase:firebase-messaging:23.2.1] /Users/navyav/.gradle/caches/transforms-3/848834323e22a5e5c64ca4160fe5d046/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:53:13-55:85
+87                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+87-->[com.google.firebase:firebase-messaging:23.2.1] /Users/navyav/.gradle/caches/transforms-3/848834323e22a5e5c64ca4160fe5d046/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:54:17-119
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[com.google.firebase:firebase-messaging:23.2.1] /Users/navyav/.gradle/caches/transforms-3/848834323e22a5e5c64ca4160fe5d046/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:55:17-82
+89            <meta-data
+89-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/navyav/.gradle/caches/transforms-3/0bae73db390fd6d7d0d8731c5a5de2e8/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+90                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+90-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/navyav/.gradle/caches/transforms-3/0bae73db390fd6d7d0d8731c5a5de2e8/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/navyav/.gradle/caches/transforms-3/0bae73db390fd6d7d0d8731c5a5de2e8/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+92            <meta-data
+92-->[com.google.firebase:firebase-installations:17.1.4] /Users/navyav/.gradle/caches/transforms-3/ca34656c20bef3cec328a2090c625fa8/transformed/jetified-firebase-installations-17.1.4/AndroidManifest.xml:15:13-17:85
+93                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+93-->[com.google.firebase:firebase-installations:17.1.4] /Users/navyav/.gradle/caches/transforms-3/ca34656c20bef3cec328a2090c625fa8/transformed/jetified-firebase-installations-17.1.4/AndroidManifest.xml:16:17-127
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[com.google.firebase:firebase-installations:17.1.4] /Users/navyav/.gradle/caches/transforms-3/ca34656c20bef3cec328a2090c625fa8/transformed/jetified-firebase-installations-17.1.4/AndroidManifest.xml:17:17-82
+95        </service>
+96
+97        <provider
+97-->[:react-native-firebase_app] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-27:38
+98            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+98-->[:react-native-firebase_app] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-88
+99            android:authorities="com.jeeva_milk.reactnativefirebaseappinitprovider"
+99-->[:react-native-firebase_app] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-86
+100            android:exported="false"
+100-->[:react-native-firebase_app] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-37
+101            android:initOrder="99" />
+101-->[:react-native-firebase_app] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-35
+102
+103        <activity
+103-->[com.google.android.gms:play-services-auth:20.6.0] /Users/navyav/.gradle/caches/transforms-3/db87ff055a94702a7b1149594e6a0146/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:23:9-27:75
+104            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+104-->[com.google.android.gms:play-services-auth:20.6.0] /Users/navyav/.gradle/caches/transforms-3/db87ff055a94702a7b1149594e6a0146/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:24:13-93
+105            android:excludeFromRecents="true"
+105-->[com.google.android.gms:play-services-auth:20.6.0] /Users/navyav/.gradle/caches/transforms-3/db87ff055a94702a7b1149594e6a0146/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:25:13-46
+106            android:exported="false"
+106-->[com.google.android.gms:play-services-auth:20.6.0] /Users/navyav/.gradle/caches/transforms-3/db87ff055a94702a7b1149594e6a0146/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:26:13-37
+107            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+107-->[com.google.android.gms:play-services-auth:20.6.0] /Users/navyav/.gradle/caches/transforms-3/db87ff055a94702a7b1149594e6a0146/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:27:13-72
+108        <!--
+109            Service handling Google Sign-In user revocation. For apps that do not integrate with
+110            Google Sign-In, this service will never be started.
+111        -->
+112        <service
+112-->[com.google.android.gms:play-services-auth:20.6.0] /Users/navyav/.gradle/caches/transforms-3/db87ff055a94702a7b1149594e6a0146/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:33:9-37:51
+113            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+113-->[com.google.android.gms:play-services-auth:20.6.0] /Users/navyav/.gradle/caches/transforms-3/db87ff055a94702a7b1149594e6a0146/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:34:13-89
+114            android:exported="true"
+114-->[com.google.android.gms:play-services-auth:20.6.0] /Users/navyav/.gradle/caches/transforms-3/db87ff055a94702a7b1149594e6a0146/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:35:13-36
+115            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+115-->[com.google.android.gms:play-services-auth:20.6.0] /Users/navyav/.gradle/caches/transforms-3/db87ff055a94702a7b1149594e6a0146/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:36:13-107
+116            android:visibleToInstantApps="true" />
+116-->[com.google.android.gms:play-services-auth:20.6.0] /Users/navyav/.gradle/caches/transforms-3/db87ff055a94702a7b1149594e6a0146/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:37:13-48
+117
+118        <receiver
+118-->[com.google.firebase:firebase-messaging:23.2.1] /Users/navyav/.gradle/caches/transforms-3/848834323e22a5e5c64ca4160fe5d046/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:29:9-36:20
+119            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+119-->[com.google.firebase:firebase-messaging:23.2.1] /Users/navyav/.gradle/caches/transforms-3/848834323e22a5e5c64ca4160fe5d046/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:30:13-78
+120            android:exported="true"
+120-->[com.google.firebase:firebase-messaging:23.2.1] /Users/navyav/.gradle/caches/transforms-3/848834323e22a5e5c64ca4160fe5d046/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:31:13-36
+121            android:permission="com.google.android.c2dm.permission.SEND" >
+121-->[com.google.firebase:firebase-messaging:23.2.1] /Users/navyav/.gradle/caches/transforms-3/848834323e22a5e5c64ca4160fe5d046/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:32:13-73
+122            <intent-filter>
+122-->[:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-29:29
+123                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+123-->[:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-81
+123-->[:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:25-78
+124            </intent-filter>
+125        </receiver>
+126        <!--
+127             FirebaseMessagingService performs security checks at runtime,
+128             but set to not exported to explicitly avoid allowing another app to call it.
+129        -->
+130        <service
+130-->[com.google.firebase:firebase-messaging:23.2.1] /Users/navyav/.gradle/caches/transforms-3/848834323e22a5e5c64ca4160fe5d046/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:42:9-49:19
+131            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+131-->[com.google.firebase:firebase-messaging:23.2.1] /Users/navyav/.gradle/caches/transforms-3/848834323e22a5e5c64ca4160fe5d046/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:43:13-82
+132            android:directBootAware="true"
+132-->[com.google.firebase:firebase-messaging:23.2.1] /Users/navyav/.gradle/caches/transforms-3/848834323e22a5e5c64ca4160fe5d046/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:44:13-43
+133            android:exported="false" >
+133-->[com.google.firebase:firebase-messaging:23.2.1] /Users/navyav/.gradle/caches/transforms-3/848834323e22a5e5c64ca4160fe5d046/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:45:13-37
+134            <intent-filter android:priority="-500" >
+134-->[:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:29
+135                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+135-->[:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-78
+135-->[:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:25-75
+136            </intent-filter>
+137        </service>
+138
+139        <activity
+139-->[com.google.android.gms:play-services-base:18.0.1] /Users/navyav/.gradle/caches/transforms-3/b71ef279c1683b5749acb2f0aa91f82a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+140            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+140-->[com.google.android.gms:play-services-base:18.0.1] /Users/navyav/.gradle/caches/transforms-3/b71ef279c1683b5749acb2f0aa91f82a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+141            android:exported="false"
+141-->[com.google.android.gms:play-services-base:18.0.1] /Users/navyav/.gradle/caches/transforms-3/b71ef279c1683b5749acb2f0aa91f82a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+142            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+142-->[com.google.android.gms:play-services-base:18.0.1] /Users/navyav/.gradle/caches/transforms-3/b71ef279c1683b5749acb2f0aa91f82a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+143
+144        <provider
+144-->[com.google.firebase:firebase-common:20.3.3] /Users/navyav/.gradle/caches/transforms-3/04618219489c9d9e3066293e05e86ee0/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:25:9-30:39
+145            android:name="com.google.firebase.provider.FirebaseInitProvider"
+145-->[com.google.firebase:firebase-common:20.3.3] /Users/navyav/.gradle/caches/transforms-3/04618219489c9d9e3066293e05e86ee0/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:26:13-77
+146            android:authorities="com.jeeva_milk.firebaseinitprovider"
+146-->[com.google.firebase:firebase-common:20.3.3] /Users/navyav/.gradle/caches/transforms-3/04618219489c9d9e3066293e05e86ee0/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:27:13-72
+147            android:directBootAware="true"
+147-->[com.google.firebase:firebase-common:20.3.3] /Users/navyav/.gradle/caches/transforms-3/04618219489c9d9e3066293e05e86ee0/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:28:13-43
+148            android:exported="false"
+148-->[com.google.firebase:firebase-common:20.3.3] /Users/navyav/.gradle/caches/transforms-3/04618219489c9d9e3066293e05e86ee0/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:29:13-37
+149            android:initOrder="100" />
+149-->[com.google.firebase:firebase-common:20.3.3] /Users/navyav/.gradle/caches/transforms-3/04618219489c9d9e3066293e05e86ee0/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:30:13-36
+150
+151        <meta-data
+151-->[com.google.android.gms:play-services-basement:18.2.0] /Users/navyav/.gradle/caches/transforms-3/4c98ac1678e91268ed33f9d3ff7f04ab/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
+152            android:name="com.google.android.gms.version"
+152-->[com.google.android.gms:play-services-basement:18.2.0] /Users/navyav/.gradle/caches/transforms-3/4c98ac1678e91268ed33f9d3ff7f04ab/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:22:13-58
+153            android:value="@integer/google_play_services_version" />
+153-->[com.google.android.gms:play-services-basement:18.2.0] /Users/navyav/.gradle/caches/transforms-3/4c98ac1678e91268ed33f9d3ff7f04ab/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:23:13-66
+154
+155        <provider
+155-->[androidx.emoji2:emoji2:1.0.0] /Users/navyav/.gradle/caches/transforms-3/917183cb484c5d05637f617d5972f589/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+156            android:name="androidx.startup.InitializationProvider"
+156-->[androidx.emoji2:emoji2:1.0.0] /Users/navyav/.gradle/caches/transforms-3/917183cb484c5d05637f617d5972f589/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+157            android:authorities="com.jeeva_milk.androidx-startup"
+157-->[androidx.emoji2:emoji2:1.0.0] /Users/navyav/.gradle/caches/transforms-3/917183cb484c5d05637f617d5972f589/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+158            android:exported="false" >
+158-->[androidx.emoji2:emoji2:1.0.0] /Users/navyav/.gradle/caches/transforms-3/917183cb484c5d05637f617d5972f589/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+159            <meta-data
+159-->[androidx.emoji2:emoji2:1.0.0] /Users/navyav/.gradle/caches/transforms-3/917183cb484c5d05637f617d5972f589/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+160                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+160-->[androidx.emoji2:emoji2:1.0.0] /Users/navyav/.gradle/caches/transforms-3/917183cb484c5d05637f617d5972f589/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+161                android:value="androidx.startup" />
+161-->[androidx.emoji2:emoji2:1.0.0] /Users/navyav/.gradle/caches/transforms-3/917183cb484c5d05637f617d5972f589/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+162            <meta-data
+162-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/navyav/.gradle/caches/transforms-3/f479eb7a3dc97eecd3d998321b7cd73d/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+163                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+163-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/navyav/.gradle/caches/transforms-3/f479eb7a3dc97eecd3d998321b7cd73d/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+164                android:value="androidx.startup" />
+164-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/navyav/.gradle/caches/transforms-3/f479eb7a3dc97eecd3d998321b7cd73d/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+165        </provider>
+166
+167        <service
+167-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/navyav/.gradle/caches/transforms-3/4b3a84e4c9cab6acdee4e047e19c05dc/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+168            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+168-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/navyav/.gradle/caches/transforms-3/4b3a84e4c9cab6acdee4e047e19c05dc/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+169            android:exported="false" >
+169-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/navyav/.gradle/caches/transforms-3/4b3a84e4c9cab6acdee4e047e19c05dc/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+170            <meta-data
+170-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/navyav/.gradle/caches/transforms-3/4b3a84e4c9cab6acdee4e047e19c05dc/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+171                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+171-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/navyav/.gradle/caches/transforms-3/4b3a84e4c9cab6acdee4e047e19c05dc/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+172                android:value="cct" />
+172-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/navyav/.gradle/caches/transforms-3/4b3a84e4c9cab6acdee4e047e19c05dc/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+173        </service>
+174        <service
+174-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/navyav/.gradle/caches/transforms-3/e51731b7759d02f6d120e93002151030/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+175            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+175-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/navyav/.gradle/caches/transforms-3/e51731b7759d02f6d120e93002151030/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+176            android:exported="false"
+176-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/navyav/.gradle/caches/transforms-3/e51731b7759d02f6d120e93002151030/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+177            android:permission="android.permission.BIND_JOB_SERVICE" >
+177-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/navyav/.gradle/caches/transforms-3/e51731b7759d02f6d120e93002151030/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+178        </service>
+179
+180        <receiver
+180-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/navyav/.gradle/caches/transforms-3/e51731b7759d02f6d120e93002151030/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+181            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+181-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/navyav/.gradle/caches/transforms-3/e51731b7759d02f6d120e93002151030/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+182            android:exported="false" />
+182-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/navyav/.gradle/caches/transforms-3/e51731b7759d02f6d120e93002151030/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+183
+184        <meta-data
+184-->[com.facebook.soloader:soloader:0.10.5] /Users/navyav/.gradle/caches/transforms-3/3019da999cc2320dc750092c570bfcb2/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:12:9-14:37
+185            android:name="com.facebook.soloader.enabled"
+185-->[com.facebook.soloader:soloader:0.10.5] /Users/navyav/.gradle/caches/transforms-3/3019da999cc2320dc750092c570bfcb2/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:13:13-57
+186            android:value="false" />
+186-->[com.facebook.soloader:soloader:0.10.5] /Users/navyav/.gradle/caches/transforms-3/3019da999cc2320dc750092c570bfcb2/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:14:13-34
+187    </application>
+188
+189</manifest>

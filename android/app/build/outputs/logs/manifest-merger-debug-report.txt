@@ -1,0 +1,720 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:1:1-25:12
+INJECTED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:1:1-25:12
+INJECTED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:1:1-25:12
+INJECTED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:1:1-25:12
+MERGED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:1:1-25:12
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.182.0] /Users/navyav/.gradle/caches/transforms-3/f50e6a56b60647daeea44226d19f4461/transformed/jetified-flipper-network-plugin-0.182.0/AndroidManifest.xml:8:1-15:12
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.182.0] /Users/navyav/.gradle/caches/transforms-3/36fbeb38e94dcd4fe88a07261f759a99/transformed/jetified-flipper-fresco-plugin-0.182.0/AndroidManifest.xml:8:1-15:12
+MERGED from [com.facebook.flipper:flipper:0.182.0] /Users/navyav/.gradle/caches/transforms-3/2c4aa7449f1f2904e68bb900cc469463/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:8:1-18:12
+MERGED from [:react-native-async-storage_async-storage] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-community_viewpager] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-community/viewpager/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-43:12
+MERGED from [:react-native-firebase_app] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-30:12
+MERGED from [:react-native-curved-bottom-bar] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/react-native-curved-bottom-bar/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-gesture-handler] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-safe-area-context] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-screens] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-svg] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/react-native-svg/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.react:react-android:0.72.3] /Users/navyav/.gradle/caches/transforms-3/5e366f166be97b536d8955c982fccd32/transformed/jetified-react-android-0.72.3-debug/AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.react:hermes-android:0.72.3] /Users/navyav/.gradle/caches/transforms-3/66219a9c545ae459158655a1460ace7d/transformed/jetified-hermes-android-0.72.3-debug/AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/navyav/.gradle/caches/transforms-3/c4750a80bbf3287e9170074f043b0b55/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/navyav/.gradle/caches/transforms-3/9781723044bf8a2815ed6db6dea771c4/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /Users/navyav/.gradle/caches/transforms-3/4afd669d35f096ae30b74015fb85a314/transformed/sqlite-framework-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.1.0] /Users/navyav/.gradle/caches/transforms-3/3b154b3d0fec1a41e0cc514b1d732555/transformed/material-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/navyav/.gradle/caches/transforms-3/e21a48fc07e68aa916f2f9287a02e87d/transformed/appcompat-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/navyav/.gradle/caches/transforms-3/f52f5947a10c752f9ed467e4c63e27c1/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/navyav/.gradle/caches/transforms-3/ac72e566de342fe130be9db9d56bc5d6/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/navyav/.gradle/caches/transforms-3/8912d4903156ab930206b37b3cf09432/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth:20.6.0] /Users/navyav/.gradle/caches/transforms-3/db87ff055a94702a7b1149594e6a0146/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-messaging:23.2.1] /Users/navyav/.gradle/caches/transforms-3/848834323e22a5e5c64ca4160fe5d046/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/navyav/.gradle/caches/transforms-3/81847f605f01734638d3bfa6037a1bab/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/navyav/.gradle/caches/transforms-3/c324eb8449f0ecde4a750c0748d57b72/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/navyav/.gradle/caches/transforms-3/6a876bd89899c2d7e57ebe89e35314c0/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/navyav/.gradle/caches/transforms-3/b71ef279c1683b5749acb2f0aa91f82a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/navyav/.gradle/caches/transforms-3/0bae73db390fd6d7d0d8731c5a5de2e8/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:15:1-33:12
+MERGED from [com.google.firebase:firebase-installations:17.1.4] /Users/navyav/.gradle/caches/transforms-3/ca34656c20bef3cec328a2090c625fa8/transformed/jetified-firebase-installations-17.1.4/AndroidManifest.xml:2:1-21:12
+MERGED from [com.google.firebase:firebase-common:20.3.3] /Users/navyav/.gradle/caches/transforms-3/04618219489c9d9e3066293e05e86ee0/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/navyav/.gradle/caches/transforms-3/1a9298cf07e49760fdc5be279ef72cb9/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/navyav/.gradle/caches/transforms-3/4674464455084b29df63ce44b1b1eee3/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/navyav/.gradle/caches/transforms-3/863436be33a3ee899c34f8399504017e/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/navyav/.gradle/caches/transforms-3/30ffb3bc5233048a0dfb19900a55ae27/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] /Users/navyav/.gradle/caches/transforms-3/8623793d629e4d3a399e7a52a849cb26/transformed/jetified-firebase-installations-interop-17.1.0/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/navyav/.gradle/caches/transforms-3/0445fb0a9e4ec05a5190a9a9557b6719/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/navyav/.gradle/caches/transforms-3/4c98ac1678e91268ed33f9d3ff7f04ab/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/navyav/.gradle/caches/transforms-3/c6b64a8e0d83b07fa582d0d6f2aa0e8a/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] /Users/navyav/.gradle/caches/transforms-3/c7ea14486143ece77e7cc2113c666056/transformed/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/navyav/.gradle/caches/transforms-3/6a8f7c640bdca0456c18a30ec8915d03/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/navyav/.gradle/caches/transforms-3/917183cb484c5d05637f617d5972f589/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/navyav/.gradle/caches/transforms-3/f479eb7a3dc97eecd3d998321b7cd73d/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/navyav/.gradle/caches/transforms-3/a549f3642c69df199a42342eeaa0464c/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.1.0] /Users/navyav/.gradle/caches/transforms-3/3ab7b6adef233c4919affa2b3601acb6/transformed/jetified-tracing-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/navyav/.gradle/caches/transforms-3/cf7e8c4f9f2c168cf92558a6a234726c/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.2.0] /Users/navyav/.gradle/caches/transforms-3/996f810034b9a57f9e7c6cd3c434f0cb/transformed/sqlite-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.1.0] /Users/navyav/.gradle/caches/transforms-3/6820bbc1c25155b23fb0c9ae73606296/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/navyav/.gradle/caches/transforms-3/74d6d49d9e2c3650f19f98e1f5757d33/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/navyav/.gradle/caches/transforms-3/8897c3333b108d34104867570f8a0f71/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/navyav/.gradle/caches/transforms-3/4f6dcfde7788abd39ebbc59fdf629924/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/navyav/.gradle/caches/transforms-3/6688c07460d36865ab1f2c31e383acfc/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/navyav/.gradle/caches/transforms-3/a1be2122b85bf807e85d08296aee5ec7/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/navyav/.gradle/caches/transforms-3/10f179088abee097c991b72f4f4efcd6/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/navyav/.gradle/caches/transforms-3/3fdfd1cd356a4f574d632ac320a182af/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/navyav/.gradle/caches/transforms-3/7cf904f68773617ffeb11c96a4d998e1/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/navyav/.gradle/caches/transforms-3/1fd6f116bede008e2cc370fcf48a0a1a/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.7.0] /Users/navyav/.gradle/caches/transforms-3/845c42ea617b425eb1fb868d75dc0e08/transformed/core-1.7.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/navyav/.gradle/caches/transforms-3/ec4fc68e54330a52cd48c113f6739cb2/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/navyav/.gradle/caches/transforms-3/baf8284c1eb6d43ea0e49946c5616fb6/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/navyav/.gradle/caches/transforms-3/81bed22d174296e55cde40d1509d6c18/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/navyav/.gradle/caches/transforms-3/1fc8688fde2426cf6cebbe1538f846e3/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/navyav/.gradle/caches/transforms-3/a18b0b6ac708d7454651d30da18d3780/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/navyav/.gradle/caches/transforms-3/be9ee14adf6bafdefc13088713b2bc6d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/navyav/.gradle/caches/transforms-3/b59334f691d1f8e3ef7248c9a8bb046a/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/navyav/.gradle/caches/transforms-3/bf4d53ea2da2c5f612d9aebd37261d16/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/navyav/.gradle/caches/transforms-3/e3c100da5ec45fcabf84388e8b870d97/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/navyav/.gradle/caches/transforms-3/55d21f34dc11032c5eb8f2c0d378c5e3/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/navyav/.gradle/caches/transforms-3/51a51982dbefb7393ca67059bc56e718/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/navyav/.gradle/caches/transforms-3/5917462cedfa5603d701b006044a313d/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/navyav/.gradle/caches/transforms-3/4b3a84e4c9cab6acdee4e047e19c05dc/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:15:1-37:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/navyav/.gradle/caches/transforms-3/e51731b7759d02f6d120e93002151030/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/navyav/.gradle/caches/transforms-3/24a201c2d22cbdb1786511e77a0b2543/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/navyav/.gradle/caches/transforms-3/b95be42bdeeaca39cb92cc7ebbfe4e68/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/navyav/.gradle/caches/transforms-3/ef773690610718408d744cd33a01533c/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/navyav/.gradle/caches/transforms-3/119519dd4717bf916b12eea024c60337/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/navyav/.gradle/caches/transforms-3/6404e35c623e406b3db9828365e6a909/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.ndk.thirdparty:openssl:1.1.1l-beta-1] /Users/navyav/.gradle/caches/transforms-3/c4869430184a06744e48a1d041fa5444/transformed/jetified-openssl-1.1.1l-beta-1/AndroidManifest.xml:1:1-3:12
+MERGED from [com.facebook.fbjni:fbjni:0.3.0] /Users/navyav/.gradle/caches/transforms-3/1f270319c1822ad5cabdce3576db51bd/transformed/jetified-fbjni-0.3.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:flipper:2.6.0] /Users/navyav/.gradle/caches/transforms-3/dcee67b95d25d8c5bc75607e018676b4/transformed/jetified-flipper-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:stetho:2.6.0] /Users/navyav/.gradle/caches/transforms-3/534be25fa877e23d5677480f172df01d/transformed/jetified-stetho-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fresco:2.6.0] /Users/navyav/.gradle/caches/transforms-3/137c303652087d33d5d3d4e47e55d755/transformed/jetified-fresco-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:soloader:2.6.0] /Users/navyav/.gradle/caches/transforms-3/6be9ff3a63e92bbc5fc3fe26826a8f79/transformed/jetified-soloader-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.6.0] /Users/navyav/.gradle/caches/transforms-3/fc02383a5a1112b8c61a99af2ab4d8a1/transformed/jetified-drawee-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.6.0] /Users/navyav/.gradle/caches/transforms-3/65c454623f5a905c2edc4b189bd07dc1/transformed/jetified-nativeimagefilters-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-native:2.6.0] /Users/navyav/.gradle/caches/transforms-3/09542dd04efc938dd8dd2f59249595ae/transformed/jetified-memory-type-native-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-java:2.6.0] /Users/navyav/.gradle/caches/transforms-3/3fb6b86ac0a44850c4f68f77f82c971d/transformed/jetified-memory-type-java-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-native:2.6.0] /Users/navyav/.gradle/caches/transforms-3/8086219d7003d822a1248343c898ff48/transformed/jetified-imagepipeline-native-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.10.5] /Users/navyav/.gradle/caches/transforms-3/3019da999cc2320dc750092c570bfcb2/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:2:1-17:12
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.6.0] /Users/navyav/.gradle/caches/transforms-3/6f48f7d06ccc278c99128969eeb0a2fc/transformed/jetified-memory-type-ashmem-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.6.0] /Users/navyav/.gradle/caches/transforms-3/c83cce83299a5890e6bdd54ea1183d00/transformed/jetified-imagepipeline-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.6.0] /Users/navyav/.gradle/caches/transforms-3/28fadbb90e7943378d90435903865ad8/transformed/jetified-nativeimagetranscoder-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.6.0] /Users/navyav/.gradle/caches/transforms-3/774a422f18fbbb92a48c5e2fb81950a9/transformed/jetified-imagepipeline-base-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:middleware:2.6.0] /Users/navyav/.gradle/caches/transforms-3/67a67501e6b92b42b96a8ab87a4de335/transformed/jetified-middleware-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:ui-common:2.6.0] /Users/navyav/.gradle/caches/transforms-3/14f32fbb8be7d8611cd0cb58dbf568ff/transformed/jetified-ui-common-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:2.6.0] /Users/navyav/.gradle/caches/transforms-3/621ae986691b9329d91b71fa835c8189/transformed/jetified-fbcore-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/navyav/.gradle/caches/transforms-3/83227a20576ab9694b30090c6f9ede98/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/debug/AndroidManifest.xml:2:1-13:12
+INJECTED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/debug/AndroidManifest.xml:2:1-13:12
+INJECTED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/debug/AndroidManifest.xml:2:1-13:12
+	package
+		ADDED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:1:70-89
+		INJECTED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:1:70-89
+		INJECTED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:1:1-25:12
+		INJECTED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/debug/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/debug/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:1:1-25:12
+		INJECTED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:3:5-67
+MERGED from [com.facebook.flipper:flipper:0.182.0] /Users/navyav/.gradle/caches/transforms-3/2c4aa7449f1f2904e68bb900cc469463/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:15:5-67
+MERGED from [com.facebook.flipper:flipper:0.182.0] /Users/navyav/.gradle/caches/transforms-3/2c4aa7449f1f2904e68bb900cc469463/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:15:5-67
+MERGED from [:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-67
+MERGED from [:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-67
+MERGED from [com.google.firebase:firebase-installations:17.1.4] /Users/navyav/.gradle/caches/transforms-3/ca34656c20bef3cec328a2090c625fa8/transformed/jetified-firebase-installations-17.1.4/AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-installations:17.1.4] /Users/navyav/.gradle/caches/transforms-3/ca34656c20bef3cec328a2090c625fa8/transformed/jetified-firebase-installations-17.1.4/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/navyav/.gradle/caches/transforms-3/30ffb3bc5233048a0dfb19900a55ae27/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/navyav/.gradle/caches/transforms-3/30ffb3bc5233048a0dfb19900a55ae27/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/navyav/.gradle/caches/transforms-3/4b3a84e4c9cab6acdee4e047e19c05dc/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/navyav/.gradle/caches/transforms-3/4b3a84e4c9cab6acdee4e047e19c05dc/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:25:5-67
+	android:name
+		ADDED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:3:22-64
+application
+ADDED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:5:5-24:19
+MERGED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:5:5-24:19
+MERGED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:5:5-24:19
+MERGED from [:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-41:19
+MERGED from [:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-41:19
+MERGED from [:react-native-firebase_app] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-28:19
+MERGED from [:react-native-firebase_app] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-28:19
+MERGED from [com.google.android.material:material:1.1.0] /Users/navyav/.gradle/caches/transforms-3/3b154b3d0fec1a41e0cc514b1d732555/transformed/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/navyav/.gradle/caches/transforms-3/3b154b3d0fec1a41e0cc514b1d732555/transformed/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-auth:20.6.0] /Users/navyav/.gradle/caches/transforms-3/db87ff055a94702a7b1149594e6a0146/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:20.6.0] /Users/navyav/.gradle/caches/transforms-3/db87ff055a94702a7b1149594e6a0146/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.firebase:firebase-messaging:23.2.1] /Users/navyav/.gradle/caches/transforms-3/848834323e22a5e5c64ca4160fe5d046/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-messaging:23.2.1] /Users/navyav/.gradle/caches/transforms-3/848834323e22a5e5c64ca4160fe5d046/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/navyav/.gradle/caches/transforms-3/6a876bd89899c2d7e57ebe89e35314c0/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/navyav/.gradle/caches/transforms-3/6a876bd89899c2d7e57ebe89e35314c0/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/navyav/.gradle/caches/transforms-3/b71ef279c1683b5749acb2f0aa91f82a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/navyav/.gradle/caches/transforms-3/b71ef279c1683b5749acb2f0aa91f82a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/navyav/.gradle/caches/transforms-3/0bae73db390fd6d7d0d8731c5a5de2e8/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:23:5-31:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/navyav/.gradle/caches/transforms-3/0bae73db390fd6d7d0d8731c5a5de2e8/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:23:5-31:19
+MERGED from [com.google.firebase:firebase-installations:17.1.4] /Users/navyav/.gradle/caches/transforms-3/ca34656c20bef3cec328a2090c625fa8/transformed/jetified-firebase-installations-17.1.4/AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-installations:17.1.4] /Users/navyav/.gradle/caches/transforms-3/ca34656c20bef3cec328a2090c625fa8/transformed/jetified-firebase-installations-17.1.4/AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-common:20.3.3] /Users/navyav/.gradle/caches/transforms-3/04618219489c9d9e3066293e05e86ee0/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.firebase:firebase-common:20.3.3] /Users/navyav/.gradle/caches/transforms-3/04618219489c9d9e3066293e05e86ee0/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/navyav/.gradle/caches/transforms-3/1a9298cf07e49760fdc5be279ef72cb9/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/navyav/.gradle/caches/transforms-3/1a9298cf07e49760fdc5be279ef72cb9/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/navyav/.gradle/caches/transforms-3/4674464455084b29df63ce44b1b1eee3/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/navyav/.gradle/caches/transforms-3/4674464455084b29df63ce44b1b1eee3/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/navyav/.gradle/caches/transforms-3/863436be33a3ee899c34f8399504017e/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/navyav/.gradle/caches/transforms-3/863436be33a3ee899c34f8399504017e/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/navyav/.gradle/caches/transforms-3/0445fb0a9e4ec05a5190a9a9557b6719/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/navyav/.gradle/caches/transforms-3/0445fb0a9e4ec05a5190a9a9557b6719/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/navyav/.gradle/caches/transforms-3/4c98ac1678e91268ed33f9d3ff7f04ab/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/navyav/.gradle/caches/transforms-3/4c98ac1678e91268ed33f9d3ff7f04ab/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/navyav/.gradle/caches/transforms-3/917183cb484c5d05637f617d5972f589/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/navyav/.gradle/caches/transforms-3/917183cb484c5d05637f617d5972f589/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/navyav/.gradle/caches/transforms-3/f479eb7a3dc97eecd3d998321b7cd73d/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/navyav/.gradle/caches/transforms-3/f479eb7a3dc97eecd3d998321b7cd73d/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/navyav/.gradle/caches/transforms-3/a549f3642c69df199a42342eeaa0464c/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/navyav/.gradle/caches/transforms-3/a549f3642c69df199a42342eeaa0464c/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.core:core:1.7.0] /Users/navyav/.gradle/caches/transforms-3/845c42ea617b425eb1fb868d75dc0e08/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] /Users/navyav/.gradle/caches/transforms-3/845c42ea617b425eb1fb868d75dc0e08/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/navyav/.gradle/caches/transforms-3/be9ee14adf6bafdefc13088713b2bc6d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/navyav/.gradle/caches/transforms-3/be9ee14adf6bafdefc13088713b2bc6d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/navyav/.gradle/caches/transforms-3/4b3a84e4c9cab6acdee4e047e19c05dc/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/navyav/.gradle/caches/transforms-3/4b3a84e4c9cab6acdee4e047e19c05dc/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/navyav/.gradle/caches/transforms-3/e51731b7759d02f6d120e93002151030/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/navyav/.gradle/caches/transforms-3/e51731b7759d02f6d120e93002151030/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:25:5-39:19
+MERGED from [com.facebook.soloader:soloader:0.10.5] /Users/navyav/.gradle/caches/transforms-3/3019da999cc2320dc750092c570bfcb2/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:11:5-15:19
+MERGED from [com.facebook.soloader:soloader:0.10.5] /Users/navyav/.gradle/caches/transforms-3/3019da999cc2320dc750092c570bfcb2/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:11:5-15:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] /Users/navyav/.gradle/caches/transforms-3/845c42ea617b425eb1fb868d75dc0e08/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:7:7-39
+		ADDED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:7:7-39
+	tools:ignore
+		ADDED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/debug/AndroidManifest.xml:10:9-48
+	android:roundIcon
+		ADDED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:9:7-52
+		ADDED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:9:7-52
+	tools:targetApi
+		ADDED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/debug/AndroidManifest.xml:9:9-29
+	android:icon
+		ADDED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:8:7-41
+		ADDED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:8:7-41
+	android:allowBackup
+		ADDED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:10:7-34
+		ADDED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:10:7-34
+	android:theme
+		ADDED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:11:7-38
+		ADDED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:11:7-38
+	android:usesCleartextTraffic
+		ADDED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/debug/AndroidManifest.xml:8:9-44
+	android:name
+		ADDED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:6:7-38
+		ADDED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:6:7-38
+activity#com.jeeva_milk.MainActivity
+ADDED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:12:7-23:18
+	android:label
+		ADDED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:14:9-41
+	android:launchMode
+		ADDED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:16:9-40
+	android:windowSoftInputMode
+		ADDED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:17:9-51
+	android:exported
+		ADDED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:18:9-32
+	android:configChanges
+		ADDED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:15:9-118
+	android:name
+		ADDED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:13:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:19:9-22:25
+action#android.intent.action.MAIN
+ADDED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:20:13-65
+	android:name
+		ADDED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:20:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:21:13-73
+	android:name
+		ADDED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml:21:23-70
+uses-sdk
+INJECTED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.182.0] /Users/navyav/.gradle/caches/transforms-3/f50e6a56b60647daeea44226d19f4461/transformed/jetified-flipper-network-plugin-0.182.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.182.0] /Users/navyav/.gradle/caches/transforms-3/f50e6a56b60647daeea44226d19f4461/transformed/jetified-flipper-network-plugin-0.182.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.182.0] /Users/navyav/.gradle/caches/transforms-3/36fbeb38e94dcd4fe88a07261f759a99/transformed/jetified-flipper-fresco-plugin-0.182.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.182.0] /Users/navyav/.gradle/caches/transforms-3/36fbeb38e94dcd4fe88a07261f759a99/transformed/jetified-flipper-fresco-plugin-0.182.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper:0.182.0] /Users/navyav/.gradle/caches/transforms-3/2c4aa7449f1f2904e68bb900cc469463/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper:0.182.0] /Users/navyav/.gradle/caches/transforms-3/2c4aa7449f1f2904e68bb900cc469463/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:11:5-13:41
+MERGED from [:react-native-async-storage_async-storage] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-async-storage_async-storage] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-community_viewpager] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-community/viewpager/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-community_viewpager] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-community/viewpager/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-firebase_app] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-44
+MERGED from [:react-native-firebase_app] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-44
+MERGED from [:react-native-curved-bottom-bar] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/react-native-curved-bottom-bar/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-curved-bottom-bar] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/react-native-curved-bottom-bar/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-gesture-handler] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-gesture-handler] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-safe-area-context] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-safe-area-context] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-screens] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-screens] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-svg] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/react-native-svg/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-svg] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/react-native-svg/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.react:react-android:0.72.3] /Users/navyav/.gradle/caches/transforms-3/5e366f166be97b536d8955c982fccd32/transformed/jetified-react-android-0.72.3-debug/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.react:react-android:0.72.3] /Users/navyav/.gradle/caches/transforms-3/5e366f166be97b536d8955c982fccd32/transformed/jetified-react-android-0.72.3-debug/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.react:hermes-android:0.72.3] /Users/navyav/.gradle/caches/transforms-3/66219a9c545ae459158655a1460ace7d/transformed/jetified-hermes-android-0.72.3-debug/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.react:hermes-android:0.72.3] /Users/navyav/.gradle/caches/transforms-3/66219a9c545ae459158655a1460ace7d/transformed/jetified-hermes-android-0.72.3-debug/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/navyav/.gradle/caches/transforms-3/c4750a80bbf3287e9170074f043b0b55/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/navyav/.gradle/caches/transforms-3/c4750a80bbf3287e9170074f043b0b55/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/navyav/.gradle/caches/transforms-3/9781723044bf8a2815ed6db6dea771c4/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/navyav/.gradle/caches/transforms-3/9781723044bf8a2815ed6db6dea771c4/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /Users/navyav/.gradle/caches/transforms-3/4afd669d35f096ae30b74015fb85a314/transformed/sqlite-framework-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /Users/navyav/.gradle/caches/transforms-3/4afd669d35f096ae30b74015fb85a314/transformed/sqlite-framework-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.1.0] /Users/navyav/.gradle/caches/transforms-3/3b154b3d0fec1a41e0cc514b1d732555/transformed/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /Users/navyav/.gradle/caches/transforms-3/3b154b3d0fec1a41e0cc514b1d732555/transformed/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/navyav/.gradle/caches/transforms-3/e21a48fc07e68aa916f2f9287a02e87d/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/navyav/.gradle/caches/transforms-3/e21a48fc07e68aa916f2f9287a02e87d/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/navyav/.gradle/caches/transforms-3/f52f5947a10c752f9ed467e4c63e27c1/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/navyav/.gradle/caches/transforms-3/f52f5947a10c752f9ed467e4c63e27c1/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/navyav/.gradle/caches/transforms-3/ac72e566de342fe130be9db9d56bc5d6/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/navyav/.gradle/caches/transforms-3/ac72e566de342fe130be9db9d56bc5d6/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/navyav/.gradle/caches/transforms-3/8912d4903156ab930206b37b3cf09432/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/navyav/.gradle/caches/transforms-3/8912d4903156ab930206b37b3cf09432/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-auth:20.6.0] /Users/navyav/.gradle/caches/transforms-3/db87ff055a94702a7b1149594e6a0146/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.6.0] /Users/navyav/.gradle/caches/transforms-3/db87ff055a94702a7b1149594e6a0146/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:23.2.1] /Users/navyav/.gradle/caches/transforms-3/848834323e22a5e5c64ca4160fe5d046/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:23.2.1] /Users/navyav/.gradle/caches/transforms-3/848834323e22a5e5c64ca4160fe5d046/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/navyav/.gradle/caches/transforms-3/81847f605f01734638d3bfa6037a1bab/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/navyav/.gradle/caches/transforms-3/81847f605f01734638d3bfa6037a1bab/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/navyav/.gradle/caches/transforms-3/c324eb8449f0ecde4a750c0748d57b72/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/navyav/.gradle/caches/transforms-3/c324eb8449f0ecde4a750c0748d57b72/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/navyav/.gradle/caches/transforms-3/6a876bd89899c2d7e57ebe89e35314c0/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/navyav/.gradle/caches/transforms-3/6a876bd89899c2d7e57ebe89e35314c0/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/navyav/.gradle/caches/transforms-3/b71ef279c1683b5749acb2f0aa91f82a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/navyav/.gradle/caches/transforms-3/b71ef279c1683b5749acb2f0aa91f82a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/navyav/.gradle/caches/transforms-3/0bae73db390fd6d7d0d8731c5a5de2e8/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/navyav/.gradle/caches/transforms-3/0bae73db390fd6d7d0d8731c5a5de2e8/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-installations:17.1.4] /Users/navyav/.gradle/caches/transforms-3/ca34656c20bef3cec328a2090c625fa8/transformed/jetified-firebase-installations-17.1.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:17.1.4] /Users/navyav/.gradle/caches/transforms-3/ca34656c20bef3cec328a2090c625fa8/transformed/jetified-firebase-installations-17.1.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:20.3.3] /Users/navyav/.gradle/caches/transforms-3/04618219489c9d9e3066293e05e86ee0/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-common:20.3.3] /Users/navyav/.gradle/caches/transforms-3/04618219489c9d9e3066293e05e86ee0/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/navyav/.gradle/caches/transforms-3/1a9298cf07e49760fdc5be279ef72cb9/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/navyav/.gradle/caches/transforms-3/1a9298cf07e49760fdc5be279ef72cb9/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/navyav/.gradle/caches/transforms-3/4674464455084b29df63ce44b1b1eee3/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/navyav/.gradle/caches/transforms-3/4674464455084b29df63ce44b1b1eee3/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/navyav/.gradle/caches/transforms-3/863436be33a3ee899c34f8399504017e/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/navyav/.gradle/caches/transforms-3/863436be33a3ee899c34f8399504017e/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/navyav/.gradle/caches/transforms-3/30ffb3bc5233048a0dfb19900a55ae27/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/navyav/.gradle/caches/transforms-3/30ffb3bc5233048a0dfb19900a55ae27/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] /Users/navyav/.gradle/caches/transforms-3/8623793d629e4d3a399e7a52a849cb26/transformed/jetified-firebase-installations-interop-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] /Users/navyav/.gradle/caches/transforms-3/8623793d629e4d3a399e7a52a849cb26/transformed/jetified-firebase-installations-interop-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/navyav/.gradle/caches/transforms-3/0445fb0a9e4ec05a5190a9a9557b6719/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/navyav/.gradle/caches/transforms-3/0445fb0a9e4ec05a5190a9a9557b6719/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/navyav/.gradle/caches/transforms-3/4c98ac1678e91268ed33f9d3ff7f04ab/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/navyav/.gradle/caches/transforms-3/4c98ac1678e91268ed33f9d3ff7f04ab/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/navyav/.gradle/caches/transforms-3/c6b64a8e0d83b07fa582d0d6f2aa0e8a/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/navyav/.gradle/caches/transforms-3/c6b64a8e0d83b07fa582d0d6f2aa0e8a/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/navyav/.gradle/caches/transforms-3/c7ea14486143ece77e7cc2113c666056/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/navyav/.gradle/caches/transforms-3/c7ea14486143ece77e7cc2113c666056/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/navyav/.gradle/caches/transforms-3/6a8f7c640bdca0456c18a30ec8915d03/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/navyav/.gradle/caches/transforms-3/6a8f7c640bdca0456c18a30ec8915d03/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/navyav/.gradle/caches/transforms-3/917183cb484c5d05637f617d5972f589/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/navyav/.gradle/caches/transforms-3/917183cb484c5d05637f617d5972f589/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/navyav/.gradle/caches/transforms-3/f479eb7a3dc97eecd3d998321b7cd73d/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/navyav/.gradle/caches/transforms-3/f479eb7a3dc97eecd3d998321b7cd73d/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/navyav/.gradle/caches/transforms-3/a549f3642c69df199a42342eeaa0464c/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/navyav/.gradle/caches/transforms-3/a549f3642c69df199a42342eeaa0464c/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.1.0] /Users/navyav/.gradle/caches/transforms-3/3ab7b6adef233c4919affa2b3601acb6/transformed/jetified-tracing-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.1.0] /Users/navyav/.gradle/caches/transforms-3/3ab7b6adef233c4919affa2b3601acb6/transformed/jetified-tracing-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/navyav/.gradle/caches/transforms-3/cf7e8c4f9f2c168cf92558a6a234726c/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/navyav/.gradle/caches/transforms-3/cf7e8c4f9f2c168cf92558a6a234726c/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.2.0] /Users/navyav/.gradle/caches/transforms-3/996f810034b9a57f9e7c6cd3c434f0cb/transformed/sqlite-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.2.0] /Users/navyav/.gradle/caches/transforms-3/996f810034b9a57f9e7c6cd3c434f0cb/transformed/sqlite-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] /Users/navyav/.gradle/caches/transforms-3/6820bbc1c25155b23fb0c9ae73606296/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] /Users/navyav/.gradle/caches/transforms-3/6820bbc1c25155b23fb0c9ae73606296/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/navyav/.gradle/caches/transforms-3/74d6d49d9e2c3650f19f98e1f5757d33/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/navyav/.gradle/caches/transforms-3/74d6d49d9e2c3650f19f98e1f5757d33/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/navyav/.gradle/caches/transforms-3/8897c3333b108d34104867570f8a0f71/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/navyav/.gradle/caches/transforms-3/8897c3333b108d34104867570f8a0f71/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/navyav/.gradle/caches/transforms-3/4f6dcfde7788abd39ebbc59fdf629924/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/navyav/.gradle/caches/transforms-3/4f6dcfde7788abd39ebbc59fdf629924/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/navyav/.gradle/caches/transforms-3/6688c07460d36865ab1f2c31e383acfc/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/navyav/.gradle/caches/transforms-3/6688c07460d36865ab1f2c31e383acfc/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/navyav/.gradle/caches/transforms-3/a1be2122b85bf807e85d08296aee5ec7/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/navyav/.gradle/caches/transforms-3/a1be2122b85bf807e85d08296aee5ec7/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/navyav/.gradle/caches/transforms-3/10f179088abee097c991b72f4f4efcd6/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/navyav/.gradle/caches/transforms-3/10f179088abee097c991b72f4f4efcd6/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/navyav/.gradle/caches/transforms-3/3fdfd1cd356a4f574d632ac320a182af/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/navyav/.gradle/caches/transforms-3/3fdfd1cd356a4f574d632ac320a182af/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/navyav/.gradle/caches/transforms-3/7cf904f68773617ffeb11c96a4d998e1/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/navyav/.gradle/caches/transforms-3/7cf904f68773617ffeb11c96a4d998e1/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/navyav/.gradle/caches/transforms-3/1fd6f116bede008e2cc370fcf48a0a1a/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/navyav/.gradle/caches/transforms-3/1fd6f116bede008e2cc370fcf48a0a1a/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /Users/navyav/.gradle/caches/transforms-3/845c42ea617b425eb1fb868d75dc0e08/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /Users/navyav/.gradle/caches/transforms-3/845c42ea617b425eb1fb868d75dc0e08/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/navyav/.gradle/caches/transforms-3/ec4fc68e54330a52cd48c113f6739cb2/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/navyav/.gradle/caches/transforms-3/ec4fc68e54330a52cd48c113f6739cb2/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/navyav/.gradle/caches/transforms-3/baf8284c1eb6d43ea0e49946c5616fb6/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/navyav/.gradle/caches/transforms-3/baf8284c1eb6d43ea0e49946c5616fb6/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/navyav/.gradle/caches/transforms-3/81bed22d174296e55cde40d1509d6c18/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/navyav/.gradle/caches/transforms-3/81bed22d174296e55cde40d1509d6c18/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/navyav/.gradle/caches/transforms-3/1fc8688fde2426cf6cebbe1538f846e3/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/navyav/.gradle/caches/transforms-3/1fc8688fde2426cf6cebbe1538f846e3/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/navyav/.gradle/caches/transforms-3/a18b0b6ac708d7454651d30da18d3780/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/navyav/.gradle/caches/transforms-3/a18b0b6ac708d7454651d30da18d3780/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/navyav/.gradle/caches/transforms-3/be9ee14adf6bafdefc13088713b2bc6d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/navyav/.gradle/caches/transforms-3/be9ee14adf6bafdefc13088713b2bc6d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/navyav/.gradle/caches/transforms-3/b59334f691d1f8e3ef7248c9a8bb046a/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/navyav/.gradle/caches/transforms-3/b59334f691d1f8e3ef7248c9a8bb046a/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/navyav/.gradle/caches/transforms-3/bf4d53ea2da2c5f612d9aebd37261d16/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/navyav/.gradle/caches/transforms-3/bf4d53ea2da2c5f612d9aebd37261d16/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/navyav/.gradle/caches/transforms-3/e3c100da5ec45fcabf84388e8b870d97/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/navyav/.gradle/caches/transforms-3/e3c100da5ec45fcabf84388e8b870d97/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/navyav/.gradle/caches/transforms-3/55d21f34dc11032c5eb8f2c0d378c5e3/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/navyav/.gradle/caches/transforms-3/55d21f34dc11032c5eb8f2c0d378c5e3/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/navyav/.gradle/caches/transforms-3/51a51982dbefb7393ca67059bc56e718/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/navyav/.gradle/caches/transforms-3/51a51982dbefb7393ca67059bc56e718/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/navyav/.gradle/caches/transforms-3/5917462cedfa5603d701b006044a313d/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/navyav/.gradle/caches/transforms-3/5917462cedfa5603d701b006044a313d/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/navyav/.gradle/caches/transforms-3/4b3a84e4c9cab6acdee4e047e19c05dc/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/navyav/.gradle/caches/transforms-3/4b3a84e4c9cab6acdee4e047e19c05dc/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/navyav/.gradle/caches/transforms-3/e51731b7759d02f6d120e93002151030/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/navyav/.gradle/caches/transforms-3/e51731b7759d02f6d120e93002151030/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/navyav/.gradle/caches/transforms-3/24a201c2d22cbdb1786511e77a0b2543/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/navyav/.gradle/caches/transforms-3/24a201c2d22cbdb1786511e77a0b2543/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/navyav/.gradle/caches/transforms-3/b95be42bdeeaca39cb92cc7ebbfe4e68/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/navyav/.gradle/caches/transforms-3/b95be42bdeeaca39cb92cc7ebbfe4e68/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/navyav/.gradle/caches/transforms-3/ef773690610718408d744cd33a01533c/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/navyav/.gradle/caches/transforms-3/ef773690610718408d744cd33a01533c/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/navyav/.gradle/caches/transforms-3/119519dd4717bf916b12eea024c60337/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/navyav/.gradle/caches/transforms-3/119519dd4717bf916b12eea024c60337/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/navyav/.gradle/caches/transforms-3/6404e35c623e406b3db9828365e6a909/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/navyav/.gradle/caches/transforms-3/6404e35c623e406b3db9828365e6a909/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.ndk.thirdparty:openssl:1.1.1l-beta-1] /Users/navyav/.gradle/caches/transforms-3/c4869430184a06744e48a1d041fa5444/transformed/jetified-openssl-1.1.1l-beta-1/AndroidManifest.xml:2:2-70
+MERGED from [com.android.ndk.thirdparty:openssl:1.1.1l-beta-1] /Users/navyav/.gradle/caches/transforms-3/c4869430184a06744e48a1d041fa5444/transformed/jetified-openssl-1.1.1l-beta-1/AndroidManifest.xml:2:2-70
+MERGED from [com.facebook.fbjni:fbjni:0.3.0] /Users/navyav/.gradle/caches/transforms-3/1f270319c1822ad5cabdce3576db51bd/transformed/jetified-fbjni-0.3.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fbjni:fbjni:0.3.0] /Users/navyav/.gradle/caches/transforms-3/1f270319c1822ad5cabdce3576db51bd/transformed/jetified-fbjni-0.3.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:flipper:2.6.0] /Users/navyav/.gradle/caches/transforms-3/dcee67b95d25d8c5bc75607e018676b4/transformed/jetified-flipper-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:flipper:2.6.0] /Users/navyav/.gradle/caches/transforms-3/dcee67b95d25d8c5bc75607e018676b4/transformed/jetified-flipper-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.6.0] /Users/navyav/.gradle/caches/transforms-3/534be25fa877e23d5677480f172df01d/transformed/jetified-stetho-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.6.0] /Users/navyav/.gradle/caches/transforms-3/534be25fa877e23d5677480f172df01d/transformed/jetified-stetho-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.6.0] /Users/navyav/.gradle/caches/transforms-3/137c303652087d33d5d3d4e47e55d755/transformed/jetified-fresco-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.6.0] /Users/navyav/.gradle/caches/transforms-3/137c303652087d33d5d3d4e47e55d755/transformed/jetified-fresco-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.6.0] /Users/navyav/.gradle/caches/transforms-3/6be9ff3a63e92bbc5fc3fe26826a8f79/transformed/jetified-soloader-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.6.0] /Users/navyav/.gradle/caches/transforms-3/6be9ff3a63e92bbc5fc3fe26826a8f79/transformed/jetified-soloader-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.6.0] /Users/navyav/.gradle/caches/transforms-3/fc02383a5a1112b8c61a99af2ab4d8a1/transformed/jetified-drawee-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.6.0] /Users/navyav/.gradle/caches/transforms-3/fc02383a5a1112b8c61a99af2ab4d8a1/transformed/jetified-drawee-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.6.0] /Users/navyav/.gradle/caches/transforms-3/65c454623f5a905c2edc4b189bd07dc1/transformed/jetified-nativeimagefilters-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.6.0] /Users/navyav/.gradle/caches/transforms-3/65c454623f5a905c2edc4b189bd07dc1/transformed/jetified-nativeimagefilters-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.6.0] /Users/navyav/.gradle/caches/transforms-3/09542dd04efc938dd8dd2f59249595ae/transformed/jetified-memory-type-native-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.6.0] /Users/navyav/.gradle/caches/transforms-3/09542dd04efc938dd8dd2f59249595ae/transformed/jetified-memory-type-native-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.6.0] /Users/navyav/.gradle/caches/transforms-3/3fb6b86ac0a44850c4f68f77f82c971d/transformed/jetified-memory-type-java-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.6.0] /Users/navyav/.gradle/caches/transforms-3/3fb6b86ac0a44850c4f68f77f82c971d/transformed/jetified-memory-type-java-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.6.0] /Users/navyav/.gradle/caches/transforms-3/8086219d7003d822a1248343c898ff48/transformed/jetified-imagepipeline-native-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.6.0] /Users/navyav/.gradle/caches/transforms-3/8086219d7003d822a1248343c898ff48/transformed/jetified-imagepipeline-native-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.10.5] /Users/navyav/.gradle/caches/transforms-3/3019da999cc2320dc750092c570bfcb2/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.10.5] /Users/navyav/.gradle/caches/transforms-3/3019da999cc2320dc750092c570bfcb2/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.6.0] /Users/navyav/.gradle/caches/transforms-3/6f48f7d06ccc278c99128969eeb0a2fc/transformed/jetified-memory-type-ashmem-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.6.0] /Users/navyav/.gradle/caches/transforms-3/6f48f7d06ccc278c99128969eeb0a2fc/transformed/jetified-memory-type-ashmem-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.6.0] /Users/navyav/.gradle/caches/transforms-3/c83cce83299a5890e6bdd54ea1183d00/transformed/jetified-imagepipeline-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.6.0] /Users/navyav/.gradle/caches/transforms-3/c83cce83299a5890e6bdd54ea1183d00/transformed/jetified-imagepipeline-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.6.0] /Users/navyav/.gradle/caches/transforms-3/28fadbb90e7943378d90435903865ad8/transformed/jetified-nativeimagetranscoder-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.6.0] /Users/navyav/.gradle/caches/transforms-3/28fadbb90e7943378d90435903865ad8/transformed/jetified-nativeimagetranscoder-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.6.0] /Users/navyav/.gradle/caches/transforms-3/774a422f18fbbb92a48c5e2fb81950a9/transformed/jetified-imagepipeline-base-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.6.0] /Users/navyav/.gradle/caches/transforms-3/774a422f18fbbb92a48c5e2fb81950a9/transformed/jetified-imagepipeline-base-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:middleware:2.6.0] /Users/navyav/.gradle/caches/transforms-3/67a67501e6b92b42b96a8ab87a4de335/transformed/jetified-middleware-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:middleware:2.6.0] /Users/navyav/.gradle/caches/transforms-3/67a67501e6b92b42b96a8ab87a4de335/transformed/jetified-middleware-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.6.0] /Users/navyav/.gradle/caches/transforms-3/14f32fbb8be7d8611cd0cb58dbf568ff/transformed/jetified-ui-common-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.6.0] /Users/navyav/.gradle/caches/transforms-3/14f32fbb8be7d8611cd0cb58dbf568ff/transformed/jetified-ui-common-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.6.0] /Users/navyav/.gradle/caches/transforms-3/621ae986691b9329d91b71fa835c8189/transformed/jetified-fbcore-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.6.0] /Users/navyav/.gradle/caches/transforms-3/621ae986691b9329d91b71fa835c8189/transformed/jetified-fbcore-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/navyav/.gradle/caches/transforms-3/83227a20576ab9694b30090c6f9ede98/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/navyav/.gradle/caches/transforms-3/83227a20576ab9694b30090c6f9ede98/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/debug/AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/debug/AndroidManifest.xml:5:22-75
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/debug/AndroidManifest.xml:11:9-111
+	android:exported
+		ADDED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/debug/AndroidManifest.xml:11:84-108
+	android:name
+		ADDED from /Users/navyav/Desktop/RN/jeeva_mobile/android/app/src/debug/AndroidManifest.xml:11:19-83
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.facebook.flipper:flipper:0.182.0] /Users/navyav/.gradle/caches/transforms-3/2c4aa7449f1f2904e68bb900cc469463/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:16:5-76
+	android:name
+		ADDED from [com.facebook.flipper:flipper:0.182.0] /Users/navyav/.gradle/caches/transforms-3/2c4aa7449f1f2904e68bb900cc469463/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:16:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-68
+MERGED from [com.google.firebase:firebase-messaging:23.2.1] /Users/navyav/.gradle/caches/transforms-3/848834323e22a5e5c64ca4160fe5d046/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-messaging:23.2.1] /Users/navyav/.gradle/caches/transforms-3/848834323e22a5e5c64ca4160fe5d046/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/navyav/.gradle/caches/transforms-3/30ffb3bc5233048a0dfb19900a55ae27/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/navyav/.gradle/caches/transforms-3/30ffb3bc5233048a0dfb19900a55ae27/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from [:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.2.1] /Users/navyav/.gradle/caches/transforms-3/848834323e22a5e5c64ca4160fe5d046/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.2.1] /Users/navyav/.gradle/caches/transforms-3/848834323e22a5e5c64ca4160fe5d046/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-installations:17.1.4] /Users/navyav/.gradle/caches/transforms-3/ca34656c20bef3cec328a2090c625fa8/transformed/jetified-firebase-installations-17.1.4/AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-installations:17.1.4] /Users/navyav/.gradle/caches/transforms-3/ca34656c20bef3cec328a2090c625fa8/transformed/jetified-firebase-installations-17.1.4/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/navyav/.gradle/caches/transforms-3/30ffb3bc5233048a0dfb19900a55ae27/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/navyav/.gradle/caches/transforms-3/30ffb3bc5233048a0dfb19900a55ae27/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/navyav/.gradle/caches/transforms-3/4b3a84e4c9cab6acdee4e047e19c05dc/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/navyav/.gradle/caches/transforms-3/4b3a84e4c9cab6acdee4e047e19c05dc/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/navyav/.gradle/caches/transforms-3/e51731b7759d02f6d120e93002151030/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/navyav/.gradle/caches/transforms-3/e51731b7759d02f6d120e93002151030/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
+service#io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService
+ADDED from [:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-14:40
+	android:exported
+		ADDED from [:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-37
+	android:name
+		ADDED from [:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-103
+service#io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService
+ADDED from [:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-21:19
+	android:exported
+		ADDED from [:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-37
+	android:name
+		ADDED from [:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-95
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-78
+	android:name
+		ADDED from [:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:25-75
+receiver#io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver
+ADDED from [:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-30:20
+	android:exported
+		ADDED from [:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-36
+	android:permission
+		ADDED from [:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-73
+	android:name
+		ADDED from [:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-96
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-29:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-81
+	android:name
+		ADDED from [:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:25-78
+meta-data#firebase_messaging_auto_init_enabled
+ADDED from [:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:32:9-34:36
+	android:value
+		ADDED from [:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:13-33
+	android:name
+		ADDED from [:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:13-64
+meta-data#com.google.firebase.messaging.default_notification_channel_id
+ADDED from [:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:9-37:32
+	android:value
+		ADDED from [:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-29
+	android:name
+		ADDED from [:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-89
+meta-data#com.google.firebase.messaging.default_notification_color
+ADDED from [:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:9-40:47
+	android:resource
+		ADDED from [:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:13-44
+	android:name
+		ADDED from [:react-native-firebase_messaging] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-84
+meta-data#app_data_collection_default_enabled
+ADDED from [:react-native-firebase_app] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:9-11:36
+	android:value
+		ADDED from [:react-native-firebase_app] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-33
+	android:name
+		ADDED from [:react-native-firebase_app] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-63
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:react-native-firebase_app] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-21:19
+MERGED from [com.google.firebase:firebase-messaging:23.2.1] /Users/navyav/.gradle/caches/transforms-3/848834323e22a5e5c64ca4160fe5d046/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:50:9-56:19
+MERGED from [com.google.firebase:firebase-messaging:23.2.1] /Users/navyav/.gradle/caches/transforms-3/848834323e22a5e5c64ca4160fe5d046/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:50:9-56:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/navyav/.gradle/caches/transforms-3/0bae73db390fd6d7d0d8731c5a5de2e8/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:24:9-30:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/navyav/.gradle/caches/transforms-3/0bae73db390fd6d7d0d8731c5a5de2e8/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:24:9-30:19
+MERGED from [com.google.firebase:firebase-installations:17.1.4] /Users/navyav/.gradle/caches/transforms-3/ca34656c20bef3cec328a2090c625fa8/transformed/jetified-firebase-installations-17.1.4/AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-installations:17.1.4] /Users/navyav/.gradle/caches/transforms-3/ca34656c20bef3cec328a2090c625fa8/transformed/jetified-firebase-installations-17.1.4/AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-common:20.3.3] /Users/navyav/.gradle/caches/transforms-3/04618219489c9d9e3066293e05e86ee0/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:20.3.3] /Users/navyav/.gradle/caches/transforms-3/04618219489c9d9e3066293e05e86ee0/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [:react-native-firebase_app] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+	tools:targetApi
+		ADDED from [:react-native-firebase_app] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-32
+	android:directBootAware
+		ADDED from [:react-native-firebase_app] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-43
+	android:name
+		ADDED from [:react-native-firebase_app] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-84
+meta-data#com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar
+ADDED from [:react-native-firebase_app] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [:react-native-firebase_app] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [:react-native-firebase_app] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-120
+provider#io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider
+ADDED from [:react-native-firebase_app] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-27:38
+	android:authorities
+		ADDED from [:react-native-firebase_app] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-86
+	android:exported
+		ADDED from [:react-native-firebase_app] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-37
+	android:initOrder
+		ADDED from [:react-native-firebase_app] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-35
+	android:name
+		ADDED from [:react-native-firebase_app] /Users/navyav/Desktop/RN/jeeva_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-88
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/navyav/.gradle/caches/transforms-3/db87ff055a94702a7b1149594e6a0146/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/navyav/.gradle/caches/transforms-3/db87ff055a94702a7b1149594e6a0146/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/navyav/.gradle/caches/transforms-3/db87ff055a94702a7b1149594e6a0146/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/navyav/.gradle/caches/transforms-3/db87ff055a94702a7b1149594e6a0146/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/navyav/.gradle/caches/transforms-3/db87ff055a94702a7b1149594e6a0146/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/navyav/.gradle/caches/transforms-3/db87ff055a94702a7b1149594e6a0146/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/navyav/.gradle/caches/transforms-3/db87ff055a94702a7b1149594e6a0146/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/navyav/.gradle/caches/transforms-3/db87ff055a94702a7b1149594e6a0146/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/navyav/.gradle/caches/transforms-3/db87ff055a94702a7b1149594e6a0146/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/navyav/.gradle/caches/transforms-3/db87ff055a94702a7b1149594e6a0146/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:34:13-89
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from [com.google.firebase:firebase-messaging:23.2.1] /Users/navyav/.gradle/caches/transforms-3/848834323e22a5e5c64ca4160fe5d046/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:23:5-77
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.2.1] /Users/navyav/.gradle/caches/transforms-3/848834323e22a5e5c64ca4160fe5d046/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:23:22-74
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:23.2.1] /Users/navyav/.gradle/caches/transforms-3/848834323e22a5e5c64ca4160fe5d046/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:26:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/navyav/.gradle/caches/transforms-3/30ffb3bc5233048a0dfb19900a55ae27/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/navyav/.gradle/caches/transforms-3/30ffb3bc5233048a0dfb19900a55ae27/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.2.1] /Users/navyav/.gradle/caches/transforms-3/848834323e22a5e5c64ca4160fe5d046/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:26:22-79
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-messaging:23.2.1] /Users/navyav/.gradle/caches/transforms-3/848834323e22a5e5c64ca4160fe5d046/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:29:9-36:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.2.1] /Users/navyav/.gradle/caches/transforms-3/848834323e22a5e5c64ca4160fe5d046/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:31:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-messaging:23.2.1] /Users/navyav/.gradle/caches/transforms-3/848834323e22a5e5c64ca4160fe5d046/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:32:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.2.1] /Users/navyav/.gradle/caches/transforms-3/848834323e22a5e5c64ca4160fe5d046/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:30:13-78
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:23.2.1] /Users/navyav/.gradle/caches/transforms-3/848834323e22a5e5c64ca4160fe5d046/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:42:9-49:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.2.1] /Users/navyav/.gradle/caches/transforms-3/848834323e22a5e5c64ca4160fe5d046/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:45:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-messaging:23.2.1] /Users/navyav/.gradle/caches/transforms-3/848834323e22a5e5c64ca4160fe5d046/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:44:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.2.1] /Users/navyav/.gradle/caches/transforms-3/848834323e22a5e5c64ca4160fe5d046/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:43:13-82
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:23.2.1] /Users/navyav/.gradle/caches/transforms-3/848834323e22a5e5c64ca4160fe5d046/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:53:13-55:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:23.2.1] /Users/navyav/.gradle/caches/transforms-3/848834323e22a5e5c64ca4160fe5d046/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:55:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.2.1] /Users/navyav/.gradle/caches/transforms-3/848834323e22a5e5c64ca4160fe5d046/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:54:17-119
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/navyav/.gradle/caches/transforms-3/b71ef279c1683b5749acb2f0aa91f82a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/navyav/.gradle/caches/transforms-3/b71ef279c1683b5749acb2f0aa91f82a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/navyav/.gradle/caches/transforms-3/b71ef279c1683b5749acb2f0aa91f82a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/navyav/.gradle/caches/transforms-3/b71ef279c1683b5749acb2f0aa91f82a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/navyav/.gradle/caches/transforms-3/0bae73db390fd6d7d0d8731c5a5de2e8/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/navyav/.gradle/caches/transforms-3/0bae73db390fd6d7d0d8731c5a5de2e8/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/navyav/.gradle/caches/transforms-3/0bae73db390fd6d7d0d8731c5a5de2e8/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.1.4] /Users/navyav/.gradle/caches/transforms-3/ca34656c20bef3cec328a2090c625fa8/transformed/jetified-firebase-installations-17.1.4/AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.1.4] /Users/navyav/.gradle/caches/transforms-3/ca34656c20bef3cec328a2090c625fa8/transformed/jetified-firebase-installations-17.1.4/AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.1.4] /Users/navyav/.gradle/caches/transforms-3/ca34656c20bef3cec328a2090c625fa8/transformed/jetified-firebase-installations-17.1.4/AndroidManifest.xml:16:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.3.3] /Users/navyav/.gradle/caches/transforms-3/04618219489c9d9e3066293e05e86ee0/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:25:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.3.3] /Users/navyav/.gradle/caches/transforms-3/04618219489c9d9e3066293e05e86ee0/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:27:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.3.3] /Users/navyav/.gradle/caches/transforms-3/04618219489c9d9e3066293e05e86ee0/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:29:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.3.3] /Users/navyav/.gradle/caches/transforms-3/04618219489c9d9e3066293e05e86ee0/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:28:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.3.3] /Users/navyav/.gradle/caches/transforms-3/04618219489c9d9e3066293e05e86ee0/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.3.3] /Users/navyav/.gradle/caches/transforms-3/04618219489c9d9e3066293e05e86ee0/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:26:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.2.0] /Users/navyav/.gradle/caches/transforms-3/4c98ac1678e91268ed33f9d3ff7f04ab/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.2.0] /Users/navyav/.gradle/caches/transforms-3/4c98ac1678e91268ed33f9d3ff7f04ab/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.2.0] /Users/navyav/.gradle/caches/transforms-3/4c98ac1678e91268ed33f9d3ff7f04ab/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:22:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/navyav/.gradle/caches/transforms-3/917183cb484c5d05637f617d5972f589/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/navyav/.gradle/caches/transforms-3/f479eb7a3dc97eecd3d998321b7cd73d/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/navyav/.gradle/caches/transforms-3/f479eb7a3dc97eecd3d998321b7cd73d/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/navyav/.gradle/caches/transforms-3/a549f3642c69df199a42342eeaa0464c/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/navyav/.gradle/caches/transforms-3/a549f3642c69df199a42342eeaa0464c/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/navyav/.gradle/caches/transforms-3/917183cb484c5d05637f617d5972f589/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/navyav/.gradle/caches/transforms-3/917183cb484c5d05637f617d5972f589/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/navyav/.gradle/caches/transforms-3/917183cb484c5d05637f617d5972f589/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/navyav/.gradle/caches/transforms-3/917183cb484c5d05637f617d5972f589/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/navyav/.gradle/caches/transforms-3/917183cb484c5d05637f617d5972f589/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/navyav/.gradle/caches/transforms-3/917183cb484c5d05637f617d5972f589/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/navyav/.gradle/caches/transforms-3/917183cb484c5d05637f617d5972f589/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/navyav/.gradle/caches/transforms-3/f479eb7a3dc97eecd3d998321b7cd73d/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/navyav/.gradle/caches/transforms-3/f479eb7a3dc97eecd3d998321b7cd73d/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/navyav/.gradle/caches/transforms-3/f479eb7a3dc97eecd3d998321b7cd73d/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/navyav/.gradle/caches/transforms-3/4b3a84e4c9cab6acdee4e047e19c05dc/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/navyav/.gradle/caches/transforms-3/e51731b7759d02f6d120e93002151030/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/navyav/.gradle/caches/transforms-3/e51731b7759d02f6d120e93002151030/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/navyav/.gradle/caches/transforms-3/4b3a84e4c9cab6acdee4e047e19c05dc/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/navyav/.gradle/caches/transforms-3/4b3a84e4c9cab6acdee4e047e19c05dc/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/navyav/.gradle/caches/transforms-3/4b3a84e4c9cab6acdee4e047e19c05dc/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/navyav/.gradle/caches/transforms-3/4b3a84e4c9cab6acdee4e047e19c05dc/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/navyav/.gradle/caches/transforms-3/4b3a84e4c9cab6acdee4e047e19c05dc/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/navyav/.gradle/caches/transforms-3/e51731b7759d02f6d120e93002151030/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/navyav/.gradle/caches/transforms-3/e51731b7759d02f6d120e93002151030/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/navyav/.gradle/caches/transforms-3/e51731b7759d02f6d120e93002151030/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/navyav/.gradle/caches/transforms-3/e51731b7759d02f6d120e93002151030/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/navyav/.gradle/caches/transforms-3/e51731b7759d02f6d120e93002151030/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/navyav/.gradle/caches/transforms-3/e51731b7759d02f6d120e93002151030/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/navyav/.gradle/caches/transforms-3/e51731b7759d02f6d120e93002151030/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+meta-data#com.facebook.soloader.enabled
+ADDED from [com.facebook.soloader:soloader:0.10.5] /Users/navyav/.gradle/caches/transforms-3/3019da999cc2320dc750092c570bfcb2/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:12:9-14:37
+	android:value
+		ADDED from [com.facebook.soloader:soloader:0.10.5] /Users/navyav/.gradle/caches/transforms-3/3019da999cc2320dc750092c570bfcb2/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:14:13-34
+	android:name
+		ADDED from [com.facebook.soloader:soloader:0.10.5] /Users/navyav/.gradle/caches/transforms-3/3019da999cc2320dc750092c570bfcb2/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:13:13-57

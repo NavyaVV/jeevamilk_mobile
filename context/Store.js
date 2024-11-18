@@ -1,20 +1,22 @@
 import React, { createContext, useReducer } from "react";
-import Reducer from "./Reducer";
+import reducers from "./Reducer";
 
 const initialState = {
     userData: {
         isVerified: false,
         access: "",
     },
-    userDetails:{
-        name:'',
-        user_name:'',
-        photo:'',
+    userDetails: {
+        name: '',
+        user_name: '',
+        photo: '',
     }
 };
 
+export const Context = createContext(initialState);
+
 const Store = ({ children }) => {
-    const [state, dispatch] = useReducer(Reducer, initialState);
+    const [state, dispatch] = useReducer(reducers, initialState);
 
     return (
         <Context.Provider value={{ state, dispatch }}>
@@ -23,6 +25,5 @@ const Store = ({ children }) => {
     );
 };
 
-export const Context = createContext(initialState);
-
 export default Store;
+

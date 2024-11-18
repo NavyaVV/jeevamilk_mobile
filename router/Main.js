@@ -16,6 +16,7 @@ const Main = () => {
   const navigationRef = useRef(null);
   const [userData, setUserData] = useState(null);
   const navigation = useNavigation();
+  
   useEffect(() => {
     const fetchData = async () => {
       try {

@@ -44,7 +44,7 @@ export default function Home({ navigation }) {
   useEffect(() => {
     homeApi().then(res => {
       setDatas(res.data.app_data.data);
-      console.log(res.data.app_data.data, 'Data');
+      console.log(res.data.app_data.data, 'Data HOME');
     });
   }, []);
 
@@ -324,7 +324,6 @@ const styles = StyleSheet.create({
   CardHead: {
     fontSize: 18,
     fontWeight: '500',
-    fontColor: '#000',
     color: '#000',
   },
   HeadDiv: {

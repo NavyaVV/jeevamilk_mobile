@@ -16,11 +16,14 @@ const Insurance = () => {
   const [cowData, setCowData] = useState({});
   const [refresh, setRefresh] = useState(false);
   console.log(cowData);
+
   useEffect(() => {
     cowsList().then(res => {
       if (res.data.app_data.StatusCode === 6000) {
         setCowData(res.data?.app_data.data);
       }
+      console.log(res.data?.app_data.data, 'insurance details');
+      
       setRefresh(false);
     });
   }, [refresh]);
@@ -123,7 +126,7 @@ const Insurance = () => {
                 no={index + 1}
                 name={item.name}
                 breed={item.breed}
-                age="02"
+                age={item.age < 10 ? `0${item.age}` : item.age}
                 insurance={item.insured ? 'Insured' : 'Uninsured'}
                 key={index}
               />

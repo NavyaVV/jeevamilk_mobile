@@ -1,0 +1,6 @@
+framework module Pods_jeeva_milkTests {
+  umbrella header "Pods-jeeva_milkTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

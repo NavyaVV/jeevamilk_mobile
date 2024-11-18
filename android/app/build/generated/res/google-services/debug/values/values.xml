@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">667870851671-5jc79amaq887m7i26ior2eek4gp34ltc.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">667870851671</string>
+    <string name="google_api_key" translatable="false">AIzaSyDEw2t6hf0YnLqBuLGUl5KfRTF0XF7De24</string>
+    <string name="google_app_id" translatable="false">1:667870851671:android:d46c7023b48e9ae3062912</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDEw2t6hf0YnLqBuLGUl5KfRTF0XF7De24</string>
+    <string name="google_storage_bucket" translatable="false">jeeva-77175.appspot.com</string>
+    <string name="project_id" translatable="false">jeeva-77175</string>
+</resources>

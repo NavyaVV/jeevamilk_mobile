@@ -34,6 +34,7 @@ const PaymentCard = ({item}) => {
           <Text style={{color: COLORS.text_color, fontSize: 20}}>
             ₹{item?.amount}
           </Text>
+          <Text style={{color: '#000',}}>{item?.status}</Text>
         </View>
       </View>
       <View style={{alignItems: 'flex-end', gap: 10}}>
@@ -45,11 +46,13 @@ const PaymentCard = ({item}) => {
           <Text style={{color: '#000'}}>Bank</Text>
           <Image source={BankIcon} />
         </View>
+      
         {/* <TouchableOpacity style={styles.downloadButton}>
           <Image source={DownloadIcon} />
           <Text style={{color: '#fff'}}>Download</Text>
         </TouchableOpacity> */}
       </View>
+      
     </TouchableOpacity>
   );
 };

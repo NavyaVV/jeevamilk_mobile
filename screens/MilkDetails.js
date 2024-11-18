@@ -21,7 +21,7 @@ const MilkDetails = () => {
       const res = await milkDetails();
       console.log(res.data.app_data.data);
       if (res.data.app_data.StatusCode === 6000) {
-        console.log(res.data.app_data.data, 'wazeerr_____');
+        console.log(res.data.app_data.data, 'wazeerr_____status');
         setDatas(res.data.app_data.data);
       } else {
         setError('Unexpected StatusCode');
@@ -72,6 +72,7 @@ const MilkDetails = () => {
           renderItem={({item}) => <MilkCard datas={item} />}
           keyExtractor={(item, index) => index.toString()}
           contentContainerStyle={{paddingBottom: 20}}
+          showsVerticalScrollIndicator={false}
           refreshing={refreshing}
           onRefresh={onRefresh}
           ListEmptyComponent={
@@ -91,6 +92,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#F3F8F9',
     // paddingHorizontal: 16,
     color: '#000',
+    marginBottom: 100
   },
   head: {
     fontSize: 24,

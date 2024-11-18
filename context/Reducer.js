@@ -1,6 +1,5 @@
-import { storeUserDataAsync } from '../helper';
-
-const reducers = (state, action) => {
+// Reducer.js
+export const reducers = (state, action) => {
     switch (action.type) {
         case "UPDATE_USER_DATA":
             const userData = { ...state.userData, ...action.payload };
@@ -9,11 +8,12 @@ const reducers = (state, action) => {
                 userData: userData,
             };
         case "UPDATE_USER_DETAILS":
-            const userDetails = {...state.userDetail,...action.payload};
+            // Fixed typo here: userDetail to userDetails
+            const userDetails = { ...state.userDetails, ...action.payload }; // Corrected to userDetails
             return {
                 ...state,
-                userDetails:userDetails
-            }
+                userDetails: userDetails,
+            };
         default:
             return state;
     }
