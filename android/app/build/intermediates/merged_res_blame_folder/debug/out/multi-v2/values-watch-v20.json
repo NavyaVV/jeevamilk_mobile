@@ -4,7 +4,7 @@
             "outputFile": "com.jeeva_milk.app-mergeDebugResources-35:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "/Users/navyav/.gradle/caches/transforms-3/db87ff055a94702a7b1149594e6a0146/transformed/jetified-play-services-auth-20.6.0/res/values-watch-v20/values.xml",
+                    "source": "C:\\Users\\soura\\.gradle\\caches\\transforms-3\\db87ff055a94702a7b1149594e6a0146\\transformed\\jetified-play-services-auth-20.6.0\\res\\values-watch-v20\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",
                         "startColumns": "0,0,0,0,0,0,0,0",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/navyav/.gradle/caches/transforms-3/e21a48fc07e68aa916f2f9287a02e87d/transformed/appcompat-1.4.1/res/values-watch-v20/values-watch-v20.xml",
+                    "source": "C:\\Users\\soura\\.gradle\\caches\\transforms-3\\e21a48fc07e68aa916f2f9287a02e87d\\transformed\\appcompat-1.4.1\\res\\values-watch-v20\\values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

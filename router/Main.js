@@ -8,12 +8,10 @@ import {createStackNavigator} from '@react-navigation/stack';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import LoginScreen from '../screens/LoginScreen';
 import BottomTabNavigator from './BottomTabNavigator';
-import Notifications from '../screens/Notifications';
 
 const Stack = createStackNavigator();
 
 const Main = () => {
-  const navigationRef = useRef(null);
   const [userData, setUserData] = useState(null);
   const navigation = useNavigation();
   
@@ -51,7 +49,6 @@ const Main = () => {
         options={{headerShown: false}}
       />
     </Stack.Navigator>
-    // </NavigationContainer>
   );
 };
 

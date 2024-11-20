@@ -4,7 +4,7 @@
             "outputFile": "com.jeeva_milk.app-mergeDebugResources-35:/values-h480dp-land-v13/values-h480dp-land-v13.xml",
             "map": [
                 {
-                    "source": "/Users/navyav/.gradle/caches/transforms-3/3b154b3d0fec1a41e0cc514b1d732555/transformed/material-1.1.0/res/values-h480dp-land-v13/values-h480dp-land-v13.xml",
+                    "source": "C:\\Users\\soura\\.gradle\\caches\\transforms-3\\3b154b3d0fec1a41e0cc514b1d732555\\transformed\\material-1.1.0\\res\\values-h480dp-land-v13\\values-h480dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

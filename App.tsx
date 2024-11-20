@@ -16,9 +16,7 @@ function App() {
   const [splashScreen, setSplashScreen] = useState(true);
 
   useEffect(() => {
-    console.log('Splash screen initial state:', splashScreen);
     setTimeout(() => {
-      console.log('Hiding splash screen...');
       setSplashScreen(false);
     }, 3000);
   }, []);

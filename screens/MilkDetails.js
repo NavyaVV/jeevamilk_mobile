@@ -1,14 +1,14 @@
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState } from "react";
 import {
   View,
   Text,
   StyleSheet,
   FlatList,
   ActivityIndicator,
-} from 'react-native';
-import MilkCard from '../Components/MilkCard';
-import {milkDetails} from '../api/auth';
-import Header from './Header';
+} from "react-native";
+import MilkCard from "../Components/MilkCard";
+import { milkDetails } from "../api/auth";
+import Header from "./Header";
 
 const MilkDetails = () => {
   const [datas, setDatas] = useState([]);
@@ -19,16 +19,15 @@ const MilkDetails = () => {
   const fetchData = async () => {
     try {
       const res = await milkDetails();
-      console.log(res.data.app_data.data);
+
       if (res.data.app_data.StatusCode === 6000) {
-        console.log(res.data.app_data.data, 'wazeerr_____status');
         setDatas(res.data.app_data.data);
       } else {
-        setError('Unexpected StatusCode');
+        setError("Unexpected StatusCode");
       }
     } catch (error) {
-      console.error('Error fetching milk details:', error);
-      setError('Failed to load data');
+      console.error("Error fetching milk details:", error);
+      setError("Failed to load data");
     } finally {
       setLoading(false);
       setRefreshing(false);
@@ -63,15 +62,17 @@ const MilkDetails = () => {
   return (
     <View style={styles.container}>
       <Header />
-      <View style={{marginBottom: 20, paddingHorizontal: 15}}>
+      <View style={{ marginBottom: 20, paddingHorizontal: 15 }}>
         <Text style={styles.head}>Milk Status</Text>
       </View>
-      <View style={{paddingHorizontal: 15}}>
+      <View style={{ paddingHorizontal: 15 }}>
         <FlatList
           data={datas}
-          renderItem={({item}) => <MilkCard datas={item} />}
-          keyExtractor={(item, index) => index.toString()}
-          contentContainerStyle={{paddingBottom: 20}}
+          renderItem={({ item }) => <MilkCard datas={item} />}
+          keyExtractor={
+            (item, index) => `${item.created_at}-${index}` // Combine `created_at` with the index for uniqueness
+          }
+          contentContainerStyle={{ paddingBottom: 20 }}
           showsVerticalScrollIndicator={false}
           refreshing={refreshing}
           onRefresh={onRefresh}
@@ -89,27 +90,27 @@ export default MilkDetails;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#F3F8F9',
+    backgroundColor: "#F3F8F9",
     // paddingHorizontal: 16,
-    color: '#000',
-    marginBottom: 100
+    color: "#000",
+    marginBottom: 100,
   },
   head: {
     fontSize: 24,
-    color: '#000',
+    color: "#000",
   },
   centered: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
+    justifyContent: "center",
+    alignItems: "center",
   },
   errorText: {
-    color: 'red',
+    color: "red",
     fontSize: 16,
   },
   emptyText: {
-    textAlign: 'center',
+    textAlign: "center",
     marginTop: 20,
-    color: '#888',
+    color: "#888",
   },
 });

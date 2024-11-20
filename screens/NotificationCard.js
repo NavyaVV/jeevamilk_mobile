@@ -3,7 +3,6 @@ import React from 'react';
 import {TimeIcon} from '../assets/icons';
 
 const NotificationCard = ({item}) => {
-  console.log(item);
   return (
     <View style={styles.container}>
       <View style={styles.topCover}>

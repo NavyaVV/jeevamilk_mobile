@@ -4,7 +4,7 @@
             "outputFile": "com.jeeva_milk.app-mergeDebugResources-35:/values-v22/values-v22.xml",
             "map": [
                 {
-                    "source": "/Users/navyav/.gradle/caches/transforms-3/e21a48fc07e68aa916f2f9287a02e87d/transformed/appcompat-1.4.1/res/values-v22/values-v22.xml",
+                    "source": "C:\\Users\\soura\\.gradle\\caches\\transforms-3\\e21a48fc07e68aa916f2f9287a02e87d\\transformed\\appcompat-1.4.1\\res\\values-v22\\values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",

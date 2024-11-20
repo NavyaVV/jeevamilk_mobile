@@ -76,7 +76,7 @@ const BottomTabNavigator = () => {
         const token = await messaging().getToken();
         setFCMToken(token);
         registerDevice(token).then(res => {
-          console.log(res);
+          // console.log(res);
         });
       } catch (error) {
         console.log(error);
@@ -85,7 +85,7 @@ const BottomTabNavigator = () => {
 
     getFCMToken();
   }, []);
-  console.log(fcmToken, '______token');
+  // console.log(fcmToken, '______token');
   return (
     <Tab.Navigator
       screenOptions={({route}) => ({
