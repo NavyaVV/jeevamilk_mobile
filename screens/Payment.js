@@ -1,29 +1,28 @@
-import React, {useEffect, useState} from 'react';
-import {View, Text, FlatList, StyleSheet} from 'react-native';
-import {COLORS} from '../Components/constants/constants';
-import PaymentCard from '../Components/PaymentCard';
-import api from '../api';
-import Header from './Header';
+import React, { useEffect, useState } from "react";
+import { View, Text, FlatList, StyleSheet } from "react-native";
+import { COLORS } from "../Components/constants/constants";
+import PaymentCard from "../Components/PaymentCard";
+import api from "../api";
+import Header from "./Header";
 
-export default function Payment({navigation}) {
+export default function Payment({ navigation }) {
   const [paymentData, setPaymentData] = useState([]);
   const [refreshing, setRefreshing] = useState(false);
 
   const fetchPaymentData = async () => {
     setRefreshing(true);
     try {
-      const response = await api.get('payments/farmer-payment-history/');
-      console.log(response.data.app_data, '_____test');
+      const response = await api.get("payments/farmer-payment-history/");
       if (response.data.app_data.StatusCode === 6000) {
         setPaymentData(response.data.app_data.data);
       } else {
         console.error(
-          'Unexpected StatusCode:',
-          response.data.app_data.StatusCode,
+          "Unexpected StatusCode:",
+          response.data.app_data.StatusCode
         );
       }
     } catch (error) {
-      console.error('Error fetching payment data:', error);
+      console.error("Error fetching payment data:", error);
     } finally {
       setRefreshing(false);
     }
@@ -39,10 +38,10 @@ export default function Payment({navigation}) {
       <View style={styles.header}>
         <Text style={styles.headerText}>Payments</Text>
       </View>
-      <View style={{paddingHorizontal: 15}}>
+      <View style={{ paddingHorizontal: 15 }}>
         <FlatList
           data={paymentData}
-          renderItem={({item}) => <PaymentCard item={item} />}
+          renderItem={({ item }) => <PaymentCard item={item} />}
           keyExtractor={(item, index) => index.toString()}
           refreshing={refreshing}
           onRefresh={fetchPaymentData}
@@ -62,25 +61,25 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     // paddingHorizontal: 16,
-    backgroundColor: '#F3F8F9',
+    backgroundColor: "#F3F8F9",
   },
   header: {
     paddingVertical: 10,
   },
   headerText: {
-    textAlign: 'center',
+    textAlign: "center",
     fontSize: 20,
-    fontWeight: '600',
+    fontWeight: "600",
     color: COLORS.text_color,
   },
   emptyMessage: {
-    textAlign: 'center',
+    textAlign: "center",
     marginTop: 20,
-    color: '#888',
+    color: "#888",
   },
   emptyContainer: {
     flexGrow: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
+    justifyContent: "center",
+    alignItems: "center",
   },
 });
