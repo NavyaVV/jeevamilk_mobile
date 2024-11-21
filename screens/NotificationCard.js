@@ -13,7 +13,7 @@ const NotificationCard = ({item}) => {
         </View>
       </View>
       <View style={{marginTop:10}}>
-        <Text style={{color: '#898989'}}>{item.message}</Text>
+        <Text style={{color: '#898989'}}>{item.message}sourav</Text>
       </View>
     </View>
   );
