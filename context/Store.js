@@ -5,6 +5,7 @@ const initialState = {
     userData: {
         isVerified: false,
         access: "",
+        refresh: "",
     },
     userDetails: {
         name: '',

@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext, useState } from "react";
 import {
   View,
   Text,
@@ -19,36 +19,8 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 const LoginScreen = ({ navigation }) => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
-  const [error, setError] = useState(false);
-  const {
-    state: { userData },
-    dispatch,
-  } = useContext(Context);
 
-  const storeData = async (value) => {
-    try {
-      await AsyncStorage.setItem("userData", value);
-    } catch (e) {
-      // saving error
-    }
-  };
-
-  // const getData = async () => {
-  //   try {
-  //     const jsonValue = await AsyncStorage.getItem('userData');
-  //     console.log(jsonValue, 'userData+++=====');
-  //     return jsonValue != null ? JSON.parse(jsonValue) : null;
-  //   } catch (e) {
-  //     console.log(e, 'error+++=====');
-
-  //     // error reading value
-  //   }
-  // };
-
-  // useEffect(()=> {
-  //   storeData("Wazeer Ahamed")
-  //   getData()
-  // }, [])
+  const { dispatch } = useContext(Context);
 
   const handleLogin = async () => {
     // Implement your login logic here
@@ -77,9 +49,9 @@ const LoginScreen = ({ navigation }) => {
         [{ text: "OK" }],
         { cancelable: false }
       );
-      setError(true);
     }
   };
+  
   return (
     <KeyboardAvoidingView
       behavior={Platform.OS === "ios" ? "padding" : "height"}

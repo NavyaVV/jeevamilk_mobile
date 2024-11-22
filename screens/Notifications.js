@@ -1,10 +1,10 @@
 import { StyleSheet, Text, View } from "react-native";
 import React, { useEffect, useState } from "react";
-import SingleHeader from "./SingleHeader";
+import SingleHeader from "../Components/SingleHeader";
 import TabSwitcher from "../Components/TabSwitcher";
 import api from "../api";
 import { FlatList } from "react-native-gesture-handler";
-import NotificationCard from "./NotificationCard";
+import NotificationCard from "../Components/NotificationCard";
 
 const Notifications = () => {
   const [activetab, setActiveTab] = useState("society");

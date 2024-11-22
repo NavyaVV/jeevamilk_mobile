@@ -7,7 +7,7 @@ import ValueCard from '../Components/ValueCard';
 import PaintBucket from '../assets/images/paintbucket.png';
 import {useEffect, useState} from 'react';
 import {farmerQuality, graphDatas} from '../api/auth';
-import Header from './Header';
+import Header from '../Components/Header';
 // import { ScrollView } from 'react-native-gesture-handler';
 
 export default function Status({navigation}) {

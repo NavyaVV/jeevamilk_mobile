@@ -8,7 +8,7 @@ import {
 } from "react-native";
 import MilkCard from "../Components/MilkCard";
 import { milkDetails } from "../api/auth";
-import Header from "./Header";
+import Header from "../Components/Header";
 
 const MilkDetails = () => {
   const [datas, setDatas] = useState([]);

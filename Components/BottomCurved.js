@@ -26,7 +26,7 @@ import {
 import Status from '../screens/Status';
 import Payment from '../screens/Payment';
 import Insurance from '../screens/Insurance';
-import Header from '../screens/Header';
+import Header from './Header';
 
 export default function BottomCurved() {
   const _renderIcon = (routeName, selectedTab) => {

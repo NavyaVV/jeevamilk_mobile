@@ -9,7 +9,7 @@ import React, { useEffect, useState } from "react";
 import CowIcon from "../assets/images/cow.png";
 import TableData from "../Components/TableData";
 import { cowsList } from "../api/auth";
-import Header from "./Header";
+import Header from "../Components/Header";
 
 const Insurance = () => {
   const [cowData, setCowData] = useState({});

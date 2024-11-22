@@ -1,31 +1,27 @@
-import React, {useEffect, useRef, useState} from 'react';
-import {
-  NavigationContainer,
-  CommonActions,
-  useNavigation,
-} from '@react-navigation/native';
-import {createStackNavigator} from '@react-navigation/stack';
-import AsyncStorage from '@react-native-async-storage/async-storage';
-import LoginScreen from '../screens/LoginScreen';
-import BottomTabNavigator from './BottomTabNavigator';
+import React, { useEffect, useState } from "react";
+import { useNavigation } from "@react-navigation/native";
+import { createStackNavigator } from "@react-navigation/stack";
+import AsyncStorage from "@react-native-async-storage/async-storage";
+import LoginScreen from "../screens/LoginScreen";
+import BottomTabNavigator from "./BottomTabNavigator";
 
 const Stack = createStackNavigator();
 
 const Main = () => {
   const [userData, setUserData] = useState(null);
   const navigation = useNavigation();
-  
+
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const jsonValue = await AsyncStorage.getItem('userData');
+        const jsonValue = await AsyncStorage.getItem("userData");
         if (jsonValue) {
           const userData = JSON.parse(jsonValue);
           setUserData(userData.access);
           if (userData) {
-            navigation.navigate('Private');
+            navigation.navigate("Private");
           } else {
-            navigation.navigate('Auth');
+            navigation.navigate("Auth");
           }
         }
       } catch (e) {
@@ -37,16 +33,16 @@ const Main = () => {
   });
 
   return (
-    <Stack.Navigator initialRouteName={userData ? 'Private' : 'Auth'}>
+    <Stack.Navigator initialRouteName={userData ? "Private" : "Auth"}>
       <Stack.Screen
         name="Auth"
         component={LoginScreen}
-        options={{headerShown: false}}
+        options={{ headerShown: false }}
       />
       <Stack.Screen
         name="Private"
         component={BottomTabNavigator}
-        options={{headerShown: false}}
+        options={{ headerShown: false }}
       />
     </Stack.Navigator>
   );

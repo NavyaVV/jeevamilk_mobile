@@ -1,15 +1,12 @@
 import React, {useEffect, useState} from 'react';
 import {StyleSheet, View} from 'react-native';
-import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {GestureHandlerRootView} from 'react-native-gesture-handler';
 import Main from './router/Main.js';
 import Store from './context/Store';
 import SplashScreen from './Components/SplashScreen';
-import messaging, {firebase} from '@react-native-firebase/messaging';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 
-const Tab = createBottomTabNavigator();
 const Stack = createStackNavigator();
 
 function App() {
@@ -30,7 +27,7 @@ function App() {
           <Store>
             <View style={{flex: 1}}>
               <NavigationContainer>
-                <Stack.Navigator initialRouteName={'Main'}>
+                <Stack.Navigator>
                   <Stack.Screen
                     name="Main"
                     component={Main}
@@ -52,7 +49,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#F3F8F9',
-    // paddingTop: 50,
   },
   container2: {
     flex: 1,

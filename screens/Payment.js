@@ -3,7 +3,7 @@ import { View, Text, FlatList, StyleSheet } from "react-native";
 import { COLORS } from "../Components/constants/constants";
 import PaymentCard from "../Components/PaymentCard";
 import api from "../api";
-import Header from "./Header";
+import Header from "../Components/Header";
 
 export default function Payment({ navigation }) {
   const [paymentData, setPaymentData] = useState([]);

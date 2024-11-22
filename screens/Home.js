@@ -15,7 +15,7 @@ import Ruler from "../assets/icons/ruler.png";
 import Design from "../assets/icons/Design.png";
 import MoneyImg from "../assets/icons/Money.png";
 import { homeApi } from "../api/auth";
-import Header from "./Header";
+import Header from "../Components/Header";
 
 export default function Home({ navigation }) {
   const [datas, setDatas] = useState({});

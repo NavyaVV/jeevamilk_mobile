@@ -1,7 +1,7 @@
 import { Image, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import React, { useEffect, useState } from "react";
 import api from "../api";
-import Header from "./Header";
+import Header from "../Components/Header";
 import { BackIcon, TimeIcon } from "../assets/icons";
 import { useNavigation } from "@react-navigation/native";
 import { BankIcon, CalenderIcon, PaymentReceivedIcon } from "../assets/images";
