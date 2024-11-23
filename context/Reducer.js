@@ -2,7 +2,6 @@
 export const reducers = (state, action) => {
   switch (action.type) {
     case "UPDATE_USER_DATA":
-      console.log(action.payload);
       return {
         ...action.payload,
       };

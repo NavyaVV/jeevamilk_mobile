@@ -15,12 +15,6 @@ import java.util.ArrayList;
 import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
 // @react-native-community/viewpager
 import com.reactnativecommunity.viewpager.RNCViewPagerPackage;
-// @react-native-firebase/app
-import io.invertase.firebase.app.ReactNativeFirebaseAppPackage;
-// @react-native-firebase/messaging
-import io.invertase.firebase.messaging.ReactNativeFirebaseMessagingPackage;
-// react-native-curved-bottom-bar
-import com.curvedbottombar.CurvedBottomBarPackage;
 // react-native-gesture-handler
 import com.swmansion.gesturehandler.RNGestureHandlerPackage;
 // react-native-safe-area-context
@@ -76,9 +70,6 @@ public class PackageList {
       new MainReactPackage(mConfig),
       new AsyncStoragePackage(),
       new RNCViewPagerPackage(),
-      new ReactNativeFirebaseAppPackage(),
-      new ReactNativeFirebaseMessagingPackage(),
-      new CurvedBottomBarPackage(),
       new RNGestureHandlerPackage(),
       new SafeAreaContextPackage(),
       new RNScreensPackage(),

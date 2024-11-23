@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.jeeva_milk.app-mergeDebugResources-35:/values-w360dp-port-v13/values-w360dp-port-v13.xml",
+            "outputFile": "com.jeeva_milk.app-mergeDebugResources-30:/values-w360dp-port-v13/values-w360dp-port-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\soura\\.gradle\\caches\\transforms-3\\3b154b3d0fec1a41e0cc514b1d732555\\transformed\\material-1.1.0\\res\\values-w360dp-port-v13\\values-w360dp-port-v13.xml",

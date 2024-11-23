@@ -59,6 +59,10 @@ const MilkDetails = () => {
     );
   }
 
+  const renderItem = ({ item }) => {
+    return <MilkCard datas={item} />;
+  };
+
   return (
     <View style={styles.container}>
       <Header />
@@ -68,7 +72,7 @@ const MilkDetails = () => {
       <View style={{ paddingHorizontal: 15 }}>
         <FlatList
           data={datas}
-          renderItem={({ item }) => <MilkCard datas={item} />}
+          renderItem={renderItem}
           keyExtractor={
             (item, index) => `${item.created_at}-${index}` // Combine `created_at` with the index for uniqueness
           }
@@ -76,8 +80,12 @@ const MilkDetails = () => {
           showsVerticalScrollIndicator={false}
           refreshing={refreshing}
           onRefresh={onRefresh}
+          initialNumToRender={10}
+          windowSize={5}
           ListEmptyComponent={
-            <Text style={styles.emptyText}>No milk data available.</Text>
+            <View style={styles.emptyContainer}>
+              <Text style={styles.emptyText}>No milk data available.</Text>
+            </View>
           }
         />
       </View>
@@ -112,5 +120,10 @@ const styles = StyleSheet.create({
     textAlign: "center",
     marginTop: 20,
     color: "#888",
+  },
+  emptyContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
   },
 });

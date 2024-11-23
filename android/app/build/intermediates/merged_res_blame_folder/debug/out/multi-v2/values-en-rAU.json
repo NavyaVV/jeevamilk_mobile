@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.jeeva_milk.app-mergeDebugResources-35:/values-en-rAU/values-en-rAU.xml",
+            "outputFile": "com.jeeva_milk.app-mergeDebugResources-30:/values-en-rAU/values-en-rAU.xml",
             "map": [
                 {
                     "source": "C:\\Users\\soura\\.gradle\\caches\\transforms-3\\e21a48fc07e68aa916f2f9287a02e87d\\transformed\\appcompat-1.4.1\\res\\values-en-rAU\\values-en-rAU.xml",

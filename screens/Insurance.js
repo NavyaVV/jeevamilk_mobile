@@ -1,10 +1,4 @@
-import {
-  View,
-  Text,
-  StyleSheet,
-  Image,
-  FlatList,
-} from "react-native";
+import { View, Text, StyleSheet, Image, FlatList } from "react-native";
 import React, { useEffect, useState } from "react";
 import CowIcon from "../assets/images/cow.png";
 import TableData from "../Components/TableData";
@@ -17,8 +11,6 @@ const Insurance = () => {
 
   useEffect(() => {
     cowsList().then((res) => {
-      console.log(res);
-
       if (res.data.app_data.StatusCode === 6000) {
         setCowData(res.data?.app_data.data);
       }
@@ -28,7 +20,6 @@ const Insurance = () => {
 
   const renderHeader = () => (
     <>
-      
       <View style={styles.topCover}>
         <View style={styles.headCover}>
           <View style={styles.imageContainer}>
@@ -93,27 +84,27 @@ const Insurance = () => {
 
   return (
     <>
-    <Header />
-    <FlatList
-      data={cowData}
-      renderItem={({ item, index }) => (
-        <TableData
-          no={index + 1}
-          name={item.name}
-          breed={item.breed}
-          age={item.age < 10 ? `0${item.age}` : item.age}
-          insurance={item.insured ? "Insured" : "Uninsured"}
-          key={index}
-        />
-      )}
-      ListHeaderComponent={renderHeader}
-      keyExtractor={(item, index) => index.toString()}
-      refreshing={refresh}
-      contentContainerStyle={styles.container}
-      onRefresh={() => {
-        setRefresh(!refresh);
-      }}
-    />
+      <Header />
+      <FlatList
+        data={cowData}
+        renderItem={({ item, index }) => (
+          <TableData
+            no={index + 1}
+            name={item.name}
+            breed={item.breed}
+            age={item.age < 10 ? `0${item.age}` : item.age}
+            insurance={item.insured ? "Insured" : "Uninsured"}
+            key={index}
+          />
+        )}
+        ListHeaderComponent={renderHeader}
+        keyExtractor={(item, index) => index.toString()}
+        refreshing={refresh}
+        contentContainerStyle={styles.container}
+        onRefresh={() => {
+          setRefresh(!refresh);
+        }}
+      />
     </>
   );
 };
@@ -125,7 +116,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 16,
     paddingVertical: 16,
     backgroundColor: "#F3F8F9",
-    flex: 1
+    flex: 1,
   },
   imageContainer: {
     padding: 8,

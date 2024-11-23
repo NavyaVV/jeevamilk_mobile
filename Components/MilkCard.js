@@ -1,6 +1,7 @@
 import { View, Text, StyleSheet } from "react-native";
 import React from "react";
 import { formattedDate, getAMorPM, roundTo } from "../helper";
+import { memo } from "react";
 
 const MilkCard = (datas) => {
   
@@ -65,7 +66,7 @@ const MilkCard = (datas) => {
   );
 };
 
-export default MilkCard;
+export default memo(MilkCard);
 
 const styles = StyleSheet.create({
   container: {

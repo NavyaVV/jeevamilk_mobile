@@ -21,21 +21,6 @@ export default function Home({ navigation }) {
   const [datas, setDatas] = useState({});
   const [refreshing, setRefreshing] = useState(false);
 
-  // const retrieveData = async () => {
-  //   try {
-  //     const value = await AsyncStorage.getItem("userData");
-  //     if (value !== null) {
-  //       const parsedData = JSON.parse(value);
-  //     }
-  //   } catch (error) {
-  //     console.log(error, "error");
-  //   }
-  // };
-
-  // useEffect(() => {
-  //   retrieveData();
-  // }, []);
-
   useEffect(() => {
     homeApi().then((res) => {
       setDatas(res.data.app_data.data);

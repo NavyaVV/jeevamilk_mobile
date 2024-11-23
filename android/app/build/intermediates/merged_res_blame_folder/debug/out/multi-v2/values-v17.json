@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.jeeva_milk.app-mergeDebugResources-35:/values-v17/values-v17.xml",
+            "outputFile": "com.jeeva_milk.app-mergeDebugResources-30:/values-v17/values-v17.xml",
             "map": [
                 {
                     "source": "C:\\Users\\soura\\.gradle\\caches\\transforms-3\\e21a48fc07e68aa916f2f9287a02e87d\\transformed\\appcompat-1.4.1\\res\\values-v17\\values-v17.xml",

@@ -1,14 +1,11 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import Profile from "../screens/Profile";
 import Insurance from "../screens/Insurance";
 import Payment from "../screens/Payment";
-import messaging from "@react-native-firebase/messaging";
-import { Text, TouchableOpacity } from "react-native";
-import { CowIcon } from "../assets/images";
+import { Text } from "react-native";
 import MilkDetails from "../screens/MilkDetails";
 import HomeCover from "../screens/HomeCover";
-import { registerDevice } from "../api/auth";
 import {
   HomeActive,
   HomeIcon,
