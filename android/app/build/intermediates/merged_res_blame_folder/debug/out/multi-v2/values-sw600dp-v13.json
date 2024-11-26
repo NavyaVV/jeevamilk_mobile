@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.jeeva_milk.app-mergeDebugResources-30:/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "outputFile": "com.jeeva_milk.app-mergeDebugResources-41:/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\soura\\.gradle\\caches\\transforms-3\\3b154b3d0fec1a41e0cc514b1d732555\\transformed\\material-1.1.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\soura\\.gradle\\caches\\transforms-3\\30e04b55b5b9f60c9aed652ccfcaa287\\transformed\\material-1.1.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\soura\\.gradle\\caches\\transforms-3\\e21a48fc07e68aa916f2f9287a02e87d\\transformed\\appcompat-1.4.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\soura\\.gradle\\caches\\transforms-3\\7e34f3a29f8c052af7629e3a37a917b9\\transformed\\appcompat-1.4.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

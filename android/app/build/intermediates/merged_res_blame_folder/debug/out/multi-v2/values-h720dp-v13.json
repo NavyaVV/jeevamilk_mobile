@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.jeeva_milk.app-mergeDebugResources-30:/values-h720dp-v13/values-h720dp-v13.xml",
+            "outputFile": "com.jeeva_milk.app-mergeDebugResources-41:/values-h720dp-v13/values-h720dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\soura\\.gradle\\caches\\transforms-3\\e21a48fc07e68aa916f2f9287a02e87d\\transformed\\appcompat-1.4.1\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "source": "C:\\Users\\soura\\.gradle\\caches\\transforms-3\\7e34f3a29f8c052af7629e3a37a917b9\\transformed\\appcompat-1.4.1\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -30,7 +30,7 @@ const Main = () => {
     };
 
     fetchData();
-  });
+  }, []);
 
   return (
     <Stack.Navigator initialRouteName={userData ? "Private" : "Auth"}>
