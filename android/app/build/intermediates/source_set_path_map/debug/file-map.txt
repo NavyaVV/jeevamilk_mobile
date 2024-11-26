@@ -34,8 +34,7 @@ com.jeeva_milk.app-merged_res-32 C:\Users\soura\woodenclouds\jeevamilk_mobile\an
 com.jeeva_milk.app-debug-33 C:\Users\soura\woodenclouds\jeevamilk_mobile\android\app\src\debug\res
 com.jeeva_milk.app-main-34 C:\Users\soura\woodenclouds\jeevamilk_mobile\android\app\src\main\res
 com.jeeva_milk.app-packaged_res-35 C:\Users\soura\woodenclouds\jeevamilk_mobile\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\packaged_res\debug
-com.jeeva_milk.app-packaged_res-36 C:\Users\soura\woodenclouds\jeevamilk_mobile\node_modules\@react-native-community\viewpager\android\build\intermediates\packaged_res\debug
-com.jeeva_milk.app-packaged_res-37 C:\Users\soura\woodenclouds\jeevamilk_mobile\node_modules\react-native-gesture-handler\android\build\intermediates\packaged_res\debug
-com.jeeva_milk.app-packaged_res-38 C:\Users\soura\woodenclouds\jeevamilk_mobile\node_modules\react-native-safe-area-context\android\build\intermediates\packaged_res\debug
-com.jeeva_milk.app-packaged_res-39 C:\Users\soura\woodenclouds\jeevamilk_mobile\node_modules\react-native-screens\android\build\intermediates\packaged_res\debug
-com.jeeva_milk.app-packaged_res-40 C:\Users\soura\woodenclouds\jeevamilk_mobile\node_modules\react-native-svg\android\build\intermediates\packaged_res\debug
+com.jeeva_milk.app-packaged_res-36 C:\Users\soura\woodenclouds\jeevamilk_mobile\node_modules\react-native-gesture-handler\android\build\intermediates\packaged_res\debug
+com.jeeva_milk.app-packaged_res-37 C:\Users\soura\woodenclouds\jeevamilk_mobile\node_modules\react-native-safe-area-context\android\build\intermediates\packaged_res\debug
+com.jeeva_milk.app-packaged_res-38 C:\Users\soura\woodenclouds\jeevamilk_mobile\node_modules\react-native-screens\android\build\intermediates\packaged_res\debug
+com.jeeva_milk.app-packaged_res-39 C:\Users\soura\woodenclouds\jeevamilk_mobile\node_modules\react-native-svg\android\build\intermediates\packaged_res\debug
