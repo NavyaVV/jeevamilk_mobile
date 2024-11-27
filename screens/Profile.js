@@ -1,12 +1,11 @@
 // import * as React from 'react'
 import { View, Text, Image, TouchableOpacity } from "react-native";
-import { ScrollView } from "react-native-gesture-handler";
 import { LocationIcon, PhoneIcon, ProfileIcon } from "../assets/images";
-import { COLORS, globalStyles } from "../Components/constants/constants";
+import { globalStyles } from "../Components/constants/constants";
 import { useEffect, useState } from "react";
 import { profileDetail } from "../api/auth";
 import AsyncStorage from "@react-native-async-storage/async-storage";
-import { CommonActions } from "@react-navigation/native";
+
 
 export default function Profile({ navigation }) {
 

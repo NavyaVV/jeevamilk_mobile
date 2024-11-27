@@ -1,36 +1,26 @@
 {
   "project_info": {
-    "project_number": "667870851671",
-    "project_id": "jeeva-77175",
-    "storage_bucket": "jeeva-77175.appspot.com"
+    "project_number": "728410369664",
+    "project_id": "jeevamilk-65f8e",
+    "storage_bucket": "jeevamilk-65f8e.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:667870851671:android:d46c7023b48e9ae3062912",
+        "mobilesdk_app_id": "1:728410369664:android:a4ea9a51fdb4626ec9c065",
         "android_client_info": {
           "package_name": "com.jeeva_milk"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "667870851671-5jc79amaq887m7i26ior2eek4gp34ltc.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDEw2t6hf0YnLqBuLGUl5KfRTF0XF7De24"
+          "current_key": "AIzaSyBTgBQS42hrzgwEIjhtuhLpgsW0wM4c9OM"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "667870851671-5jc79amaq887m7i26ior2eek4gp34ltc.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }

@@ -3,7 +3,13 @@ export const reducers = (state, action) => {
   switch (action.type) {
     case "UPDATE_USER_DATA":
       return {
-        ...action.payload,
+        ...state,
+        userData: {
+          ...state.userData,
+          access: action.payload.access,
+          refresh: action.payload.refresh,
+          isVerified: true,
+        },
       };
     case "UPDATE_USER_DETAILS":
       // Fixed typo here: userDetail to userDetails

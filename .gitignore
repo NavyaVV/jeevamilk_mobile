@@ -40,9 +40,11 @@ yarn-error.*
 
 # Additional entries for React Native projects
 # Android
-android/.gradle
-android/app/build
+
 android/build
+android/.gradle/
+android/app/build/
+
 
 # iOS
 ios/Pods

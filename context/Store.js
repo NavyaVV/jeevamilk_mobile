@@ -3,9 +3,9 @@ import reducers from "./Reducer";
 
 const initialState = {
     userData: {
-        isVerified: false,
         access: "",
         refresh: "",
+        isAuth: false,
     },
     userDetails: {
         name: '',
