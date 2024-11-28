@@ -1,5 +1,5 @@
 import React, { createContext, useEffect, useState } from "react";
-import { setLogoutCallback } from "../utils/AuthService";
+import { setLogoutCallback } from "../services/AuthService";
 
 export const AuthContext = createContext();
 

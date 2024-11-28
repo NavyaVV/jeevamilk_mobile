@@ -1,6 +1,6 @@
 import axios from "axios";
 import AsyncStorage from "@react-native-async-storage/async-storage";
-import { logout } from "../utils/AuthService";
+import { logout } from "../services/AuthService";
 
 const api = axios.create({
   baseURL: "https://api.jeevamilk.com/api/v1/",
