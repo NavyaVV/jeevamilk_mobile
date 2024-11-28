@@ -1,6 +1,6 @@
 import api from "..";
 
-export const login = (username, password) => {
+export const loginFarmer = (username, password) => {
   return api.post("accounts/farmer-login/", {
     username: username,
     password: password,

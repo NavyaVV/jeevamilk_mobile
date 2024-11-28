@@ -2,13 +2,15 @@
 import { View, Text, Image, TouchableOpacity } from "react-native";
 import { LocationIcon, PhoneIcon, ProfileIcon } from "../assets/images";
 import { globalStyles } from "../Components/constants/constants";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { profileDetail } from "../api/auth";
 import AsyncStorage from "@react-native-async-storage/async-storage";
+import { AuthContext } from "../context/AuthContext";
 
 
 export default function Profile({ navigation }) {
 
+  const { logout } = useContext(AuthContext);
   const [profileData, setProfileData] = useState({});
 
   useEffect(() => {
@@ -19,12 +21,10 @@ export default function Profile({ navigation }) {
 
   const handleLogout = () => {
     AsyncStorage.clear()
-      .then(() => {
-        navigation.navigate("Auth");
-      })
       .catch((error) => {
         console.error("Error clearing storage:", error);
       });
+    logout();
   };
 
   return (

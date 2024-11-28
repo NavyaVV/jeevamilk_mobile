@@ -1,5 +1,6 @@
 import axios from "axios";
 import AsyncStorage from "@react-native-async-storage/async-storage";
+import { logout } from "../utils/AuthService";
 
 const api = axios.create({
   baseURL: "https://api.jeevamilk.com/api/v1/",
@@ -49,12 +50,10 @@ api.interceptors.response.use(
   },
   (error) => {
     if (error.response) {
-      console.error("Response error:", error.response);
       switch (error.response.status) {
         case 401:
-          // console.error("Unauthorized: Please log in again.");
           AsyncStorage.clear()
-          
+          logout();
           break;
         case 403:
           console.error(

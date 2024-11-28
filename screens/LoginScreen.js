@@ -10,33 +10,32 @@ import {
   Alert,
   Image,
 } from "react-native";
-import { login } from "../api/auth";
 import { Context } from "../context/Store";
 import { storeUserDataAsync } from "../helper";
 import LogoBlue from "../assets/logo/logo_blue.png";
-import AsyncStorage from "@react-native-async-storage/async-storage";
+import { AuthContext } from "../context/AuthContext";
+import { loginFarmer } from "../api/auth";
 
 const LoginScreen = ({ navigation }) => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
 
   const { dispatch } = useContext(Context);
+  const { login } = useContext(AuthContext);
 
   const handleLogin = async () => {
     // Implement your login logic here
     if (username.length > 3 && password.length > 3) {
-      const res = await login(username, password);
-
+      const res = await loginFarmer(username, password);
       if (res.data.app_data.StatusCode === 6000) {
         const userData = {
           access: res.data.app_data.data.access.access,
           refresh: res.data.app_data.data.access.refresh,
           isVerified: true,
         };
-
         dispatch({ type: "UPDATE_USER_DATA", payload: userData });
         await storeUserDataAsync(userData);
-        navigation.navigate("Private");
+        login();
       } else {
         Alert.alert("Validation Error", [{ text: "OK" }], {
           cancelable: false,

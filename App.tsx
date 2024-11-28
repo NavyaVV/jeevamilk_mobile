@@ -8,6 +8,7 @@ import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import messaging from '@react-native-firebase/messaging';
 import {PermissionsAndroid} from 'react-native';
+import { AuthProvider } from './context/AuthContext.js';
   
 
 const Stack = createStackNavigator();
@@ -71,19 +72,21 @@ function App() {
         <SplashScreen />
       ) : (
         <GestureHandlerRootView style={styles.container}>
-          <Store>
-            <View style={{flex: 1}}>
-              <NavigationContainer>
-                <Stack.Navigator>
-                  <Stack.Screen
-                    name="Main"
-                    component={Main}
-                    options={{headerShown: false}}
-                  />
-                </Stack.Navigator>
-              </NavigationContainer>
-            </View>
-          </Store>
+          <AuthProvider>
+            <Store>
+              <View style={{flex: 1}}>
+                <NavigationContainer>
+                  <Stack.Navigator>
+                    <Stack.Screen
+                      name="Main"
+                      component={Main}
+                      options={{headerShown: false}}
+                      />
+                  </Stack.Navigator>
+                </NavigationContainer>
+              </View>
+            </Store>
+          </AuthProvider>
         </GestureHandlerRootView>
       )}
     </>
