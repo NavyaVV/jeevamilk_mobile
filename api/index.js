@@ -52,7 +52,9 @@ api.interceptors.response.use(
       console.error("Response error:", error.response);
       switch (error.response.status) {
         case 401:
-          console.error("Unauthorized: Please log in again.");
+          // console.error("Unauthorized: Please log in again.");
+          AsyncStorage.clear()
+          
           break;
         case 403:
           console.error(

@@ -8,7 +8,7 @@ export const reducers = (state, action) => {
           ...state.userData,
           access: action.payload.access,
           refresh: action.payload.refresh,
-          isVerified: true,
+          isVerified: action.payload.isVerified,
         },
       };
     case "UPDATE_USER_DETAILS":
