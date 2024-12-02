@@ -9,7 +9,8 @@ const Stack = createStackNavigator();
 const Main = () => {
 
   const { isAuth } = useContext(AuthContext);
-
+  console.log(isAuth);
+  
   return (
     <Stack.Navigator>
       {isAuth ? (

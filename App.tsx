@@ -27,9 +27,9 @@ function App() {
 
   return (
     <>
-      {splashScreen ? (
+      {/* {splashScreen ? (
         <SplashScreen />
-      ) : (
+      ) : ( */}
         <GestureHandlerRootView style={styles.container}>
           <AuthProvider>
             <Store>
@@ -47,7 +47,7 @@ function App() {
             </Store>
           </AuthProvider>
         </GestureHandlerRootView>
-      )}
+      {/* )} */}
     </>
   );
 }
