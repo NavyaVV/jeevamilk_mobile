@@ -3,20 +3,21 @@ import { StyleSheet, View } from 'react-native';
 import {GestureHandlerRootView} from 'react-native-gesture-handler';
 import Main from './router/Main.js';
 import Store from './context/Store';
-import SplashScreen from './Components/SplashScreen';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import { AuthProvider } from './context/AuthContext.js';
 import { initializeNotifications } from './services/NotificationService.js';
+import SplashScreen from 'react-native-splash-screen'
   
 
 const Stack = createStackNavigator();
 
 function App() {
-  const [splashScreen, setSplashScreen] = useState(true);
+  // const [splashScreen, setSplashScreen] = useState(true);
 
   useEffect(() => {
     initializeNotifications();
+    SplashScreen.hide();
   }, []);
 
   // useEffect(() => {
