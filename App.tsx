@@ -19,11 +19,11 @@ function App() {
     initializeNotifications();
   }, []);
 
-  useEffect(() => {
-    setTimeout(() => {
-      setSplashScreen(false);
-    }, 3000);
-  }, []);
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setSplashScreen(false);
+  //   }, 3000);
+  // }, []);
 
   return (
     <>

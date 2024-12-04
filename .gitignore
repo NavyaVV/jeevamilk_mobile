@@ -1,7 +1,9 @@
 # Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
 
 # dependencies
-node_modules/
+/node_modules/
+/yarn-error.log
+/npm-debug.log*
 
 # Expo
 .expo/
@@ -16,8 +18,12 @@ web-build/
 *.key
 *.mobileprovision
 
-# Metro
+# Metro Bundler cache
+*.metro-cache/
 .metro-health-check*
+
+# Temporary files
+.temp/
 
 # debug
 npm-debug.*
@@ -35,20 +41,44 @@ yarn-error.*
 # typescript
 *.tsbuildinfo
 
-/android
-/ios
-
 # Additional entries for React Native projects
-# Android
 
-android/build
-android/.gradle/
-android/app/build/
+#android
+# Gradle files
+/android/.gradle/
+/android/.idea/
+/android/build/
+/android/app/build/
+/android/local.properties
 
+# Log files
+/android/*.log
+
+# Keystore files (if any)
+/android/app/*.keystore
+
+# Crashlytics and Firebase
+/android/fabric.properties
+/android/crashlytics.properties
+
+# Misc
+/android/.externalNativeBuild/
 
 # iOS
-ios/Pods
-ios/build
+# Xcode-specific files
+/ios/Pods/
+/ios/Podfile.lock
+/ios/Podfile
+/ios/*.xcodeproj/project.xcworkspace/
+/ios/*.xcuserdata/
+/ios/*.xcconfig
+
+# Build artifacts
+/ios/build/
+/ios/DerivedData/
+
+# Other
+/ios/.DS_Store
 
 # IDEs and editors
 .idea/
