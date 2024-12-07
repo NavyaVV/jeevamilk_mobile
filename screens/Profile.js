@@ -107,7 +107,7 @@ export default function Profile({ navigation }) {
           <TouchableOpacity
             onPress={handleLogout}
             style={{
-              paddingVertical: 15,
+              paddingBottom: 50,
               alignItems: "center",
               justifyContent: "center",
               borderRadius: 5,

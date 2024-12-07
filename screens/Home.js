@@ -7,6 +7,7 @@ import {
   ScrollView,
   TouchableOpacity,
   RefreshControl,
+  StatusBar,
 } from "react-native";
 import WelcomeCard from "../Components/WelcomeCard";
 import QualityImg from "../assets/icons/quality.png";
@@ -40,6 +41,7 @@ export default function Home({ navigation }) {
 
   return (
     <>
+      <StatusBar backgroundColor="#F3F8F9" barStyle="dark-content"/>
       <Header />
       <ScrollView
         style={{ paddingHorizontal: 16, backgroundColor: "#F3F8F9" }}

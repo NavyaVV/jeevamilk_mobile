@@ -1,8 +1,8 @@
 import React, { useContext } from "react";
 import { createStackNavigator } from "@react-navigation/stack";
 import LoginScreen from "../screens/LoginScreen";
-import BottomTabNavigator from "./BottomTabNavigator";
 import { AuthContext } from "../context/AuthContext";
+import BottomTabNavigator from "./BottomTabNavigator";
 
 const Stack = createStackNavigator();
 

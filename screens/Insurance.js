@@ -11,8 +11,6 @@ const Insurance = () => {
 
   useEffect(() => {
     cowsList().then((res) => {
-      console.log(res);
-      
       if (res.data.app_data.StatusCode === 6000) {
         setCowData(res.data?.app_data.data);
       }

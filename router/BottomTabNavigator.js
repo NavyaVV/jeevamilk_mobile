@@ -1,11 +1,10 @@
-import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import Profile from "../screens/Profile";
+import HomeCover from "../screens/HomeCover";
+import MilkDetails from "../screens/MilkDetails";
 import Insurance from "../screens/Insurance";
 import Payment from "../screens/Payment";
-import { Text } from "react-native";
-import MilkDetails from "../screens/MilkDetails";
-import HomeCover from "../screens/HomeCover";
+import Profile from "../screens/Profile";
+
 import {
   HomeActive,
   HomeIcon,
@@ -18,115 +17,160 @@ import {
   InsureActiveIcon,
   InsureIcon,
 } from "../assets/svg-icons";
+import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
 const Tab = createBottomTabNavigator();
 
-const CustomTabBarIcon = ({ focused, IconComponent }) => (
-  <IconComponent
-    width={focused ? 30 : 25}
-    height={focused ? 30 : 25}
+const CustomTabBarButton = ({ children, onPress }) => (
+  <TouchableOpacity
     style={{
-      marginBottom: focused ? 5 : 0,
+      top: -30,
+      justifyContent: "center",
+      alignItems: "center",
+      ...styles.shadow,
+      backgroundColor: "#FFFFFF",
+      width: 80,
+      height: 80,
+      borderRadius: 40,
     }}
-  />
+    onPress={onPress}
+  >
+    <View
+      style={{
+        width: 70,
+        height: 70,
+        borderRadius: 35,
+        backgroundColor: "#56C9DC",
+      }}
+    >
+      {children}
+    </View>
+  </TouchableOpacity>
 );
 
 const BottomTabNavigator = () => {
   return (
     <Tab.Navigator
-      screenOptions={({ route }) => ({
-        tabBarIcon: ({ focused }) => {
-          let IconComponent;
-
-          if (route.name === "Home") {
-            IconComponent = focused ? HomeActive : HomeIcon;
-          } else if (route.name === "Status") {
-            IconComponent = focused ? StatusActive : StatusIcon;
-          } else if (route.name === "Payments") {
-            IconComponent = focused ? PaymentActiveIcon : PaymentIcon;
-          } else if (route.name === "Profile") {
-            IconComponent = focused ? ProfileActiveIcon : ProfileIcon;
-          } else if (route.name === "Insurance") {
-            IconComponent = focused ? InsureActiveIcon : InsureIcon;
-          }
-
-          return (
-            <CustomTabBarIcon focused={focused} IconComponent={IconComponent} />
-          );
-        },
-        tabBarLabel: ({ focused }) => {
-          // Customize label text, size, and color
-          let labelText;
-
-          switch (route.name) {
-            case "Home":
-              labelText = "Home";
-              break;
-            case "Status":
-              labelText = "Status";
-              break;
-            case "Payments":
-              labelText = "Payments";
-              break;
-            case "Profile":
-              labelText = "Profile";
-              break;
-            case "Insurance":
-              labelText = "Insurance";
-              break;
-            default:
-              labelText = "";
-          }
-
-          return (
-            <Text
-              style={{
-                fontSize: 14,
-                color: focused ? "#56C9DC" : "#878C90",
-                fontWeight: focused ? "bold" : "normal",
-              }}
-            >
-              {labelText}
-            </Text>
-          );
-        },
+      screenOptions={{
+        tabBarShowLabel: false,
         tabBarStyle: {
-          height: 80,
-          justifyContent: "center",
-          borderTopRightRadius: 20,
-          borderTopLeftRadius: 20,
-          paddingBottom: 15,
-          paddingTop: 10,
+          height: 70,
+          backgroundColor: "#FCFDFF",
         },
-      })}
+        headerShown: false,
+      }}
     >
       <Tab.Screen
         name="Home"
         component={HomeCover}
-        options={{ headerShown: false }}
+        options={{
+          tabBarIcon: ({ focused }) => (
+            <View
+              style={{ alignItems: "center", justifyContent: "center", gap: 6 }}
+            >
+              {focused ? <HomeActive /> : <HomeIcon />}
+              <Text
+                style={{
+                  color: focused ? "#56C9DC" : "#878C90",
+                  fontSize: 12,
+                  fontWeight: focused ? 500 : 400,
+                }}
+              >
+                Home
+              </Text>
+            </View>
+          ),
+        }}
       />
       <Tab.Screen
         name="Status"
         component={MilkDetails}
-        options={{ headerShown: false }}
+        options={{
+          tabBarIcon: ({ focused }) => (
+            <View
+              style={{ alignItems: "center", justifyContent: "center", gap: 6 }}
+            >
+              {focused ? <StatusActive /> : <StatusIcon />}
+              <Text
+                style={{
+                  color: focused ? "#56C9DC" : "#878C90",
+                  fontSize: 12,
+                  fontWeight: focused ? 500 : 400,
+                }}
+              >
+                Status
+              </Text>
+            </View>
+          ),
+        }}
       />
       <Tab.Screen
         name="Insurance"
         component={Insurance}
-        options={{ headerShown: false }}
+        options={{
+          tabBarIcon: () => <InsureIcon />,
+          tabBarButton: (props) => <CustomTabBarButton {...props} />,
+        }}
       />
       <Tab.Screen
         name="Payments"
         component={Payment}
-        options={{ headerShown: false }}
+        options={{
+          tabBarIcon: ({ focused }) => (
+            <View
+              style={{ alignItems: "center", justifyContent: "center", gap: 6 }}
+            >
+              {focused ? <PaymentActiveIcon /> : <PaymentIcon />}
+              <Text
+                style={{
+                  color: focused ? "#56C9DC" : "#878C90",
+                  fontSize: 12,
+                  fontWeight: focused ? 500 : 400,
+                }}
+              >
+                Payments
+              </Text>
+            </View>
+          ),
+        }}
       />
       <Tab.Screen
         name="Profile"
         component={Profile}
-        options={{ headerShown: false }}
+        options={{
+          tabBarIcon: ({ focused }) => (
+            <View
+              style={{ alignItems: "center", justifyContent: "center", gap: 6 }}
+            >
+              {focused ? <ProfileActiveIcon /> : <ProfileIcon />}
+              <Text
+                style={{
+                  color: focused ? "#56C9DC" : "#878C90",
+                  fontSize: 12,
+                  fontWeight: focused ? 500 : 400,
+                }}
+              >
+                Profile
+              </Text>
+            </View>
+          ),
+        }}
       />
     </Tab.Navigator>
   );
 };
 
 export default BottomTabNavigator;
+
+const styles = StyleSheet.create({
+  shadow: {
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 10,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.5,
+    elevation: 3,
+  },
+});
