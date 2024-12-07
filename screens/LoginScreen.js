@@ -15,10 +15,12 @@ import { storeUserDataAsync } from "../helper";
 import LogoBlue from "../assets/logo/logo_blue.png";
 import { AuthContext } from "../context/AuthContext";
 import { loginFarmer } from "../api/auth";
+import { EyeIcon, EyeOff } from "../assets/svg-icons";
 
 const LoginScreen = ({ navigation }) => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
+  const [showPassword, setShowPassword] = useState(false);
 
   const { dispatch } = useContext(Context);
   const { login } = useContext(AuthContext);
@@ -43,14 +45,14 @@ const LoginScreen = ({ navigation }) => {
       }
     } else {
       Alert.alert(
-        "Validation Error",
-        "Username and password required",
-        [{ text: "OK" }],
+        "Error",
+        "Contact your registered society for your login credentials.",
+        [{ text: "CONTINUE" }],
         { cancelable: false }
       );
     }
   };
-  
+
   return (
     <KeyboardAvoidingView
       behavior={Platform.OS === "ios" ? "padding" : "height"}
@@ -84,8 +86,14 @@ const LoginScreen = ({ navigation }) => {
               value={password}
               onChangeText={setPassword}
               placeholderTextColor="gray"
-              secureTextEntry
+              secureTextEntry={!showPassword}
             />
+            <TouchableOpacity
+              style={styles.eyeIcon}
+              onPress={() => setShowPassword(!showPassword)}
+            >
+              {showPassword ? <EyeOff /> : <EyeIcon />}
+            </TouchableOpacity>
             <TouchableOpacity style={styles.loginButton} onPress={handleLogin}>
               <Text style={styles.buttonText}>Login</Text>
             </TouchableOpacity>
@@ -122,13 +130,19 @@ const styles = StyleSheet.create({
   },
   input: {
     width: "100%",
-    height: 45,
+    height: 56,
     borderColor: "#ccc",
     borderWidth: 1,
-    borderRadius: 5,
+    borderRadius: 8,
     marginBottom: 20,
     paddingLeft: 10,
     color: "#000",
+  },
+  eyeIcon: {
+    position: "absolute",
+    right: 10,
+    top: 140,
+    padding: 5,
   },
   ContainerWhite: {
     width: "100%",
@@ -146,7 +160,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#56C9DC",
     justifyContent: "center",
     alignItems: "center",
-    borderRadius: 5,
+    borderRadius: 8,
     marginTop: 20,
   },
   TopCover: {

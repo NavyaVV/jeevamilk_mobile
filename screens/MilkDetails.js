@@ -66,8 +66,8 @@ const MilkDetails = () => {
   return (
     <View style={styles.container}>
       <Header />
-      <View style={{ marginBottom: 20, paddingHorizontal: 15 }}>
-        <Text style={styles.head}>Milk Status</Text>
+      <View style={styles.headerContainer}>
+        <Text style={styles.headerTxt}>Milk Status</Text>
       </View>
       <View style={{ paddingHorizontal: 15 }}>
         <FlatList
@@ -103,9 +103,14 @@ const styles = StyleSheet.create({
     color: "#000",
     marginBottom: 100,
   },
-  head: {
+  headerContainer: {
+    paddingHorizontal: 15,
+    paddingVertical: 15, 
+  },
+  headerTxt: {
     fontSize: 24,
-    color: "#000",
+    color: "#181818",
+    fontWeight: '500',
   },
   centered: {
     flex: 1,

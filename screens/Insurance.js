@@ -11,6 +11,8 @@ const Insurance = () => {
 
   useEffect(() => {
     cowsList().then((res) => {
+      console.log(res);
+      
       if (res.data.app_data.StatusCode === 6000) {
         setCowData(res.data?.app_data.data);
       }
@@ -20,6 +22,7 @@ const Insurance = () => {
 
   const renderHeader = () => (
     <>
+      <Text style={styles.heading}>Cows</Text>
       <View style={styles.topCover}>
         <View style={styles.headCover}>
           <View style={styles.imageContainer}>
@@ -114,7 +117,7 @@ export default Insurance;
 const styles = StyleSheet.create({
   container: {
     paddingHorizontal: 16,
-    paddingVertical: 16,
+    paddingVertical: 8,
     backgroundColor: "#F3F8F9",
     flex: 1,
   },
@@ -137,6 +140,13 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     gap: 10,
+  },
+  heading: {
+    textAlign: "center",
+    fontSize: 24,
+    fontWeight: "500",
+    color: "#181818",
+    paddingBottom: 22,
   },
   topCover: {
     backgroundColor: "#fff",

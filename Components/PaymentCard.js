@@ -16,7 +16,7 @@ const PaymentCard = ({ item }) => {
       style={styles.container}
       onPress={() => navigation.navigate("PaymentDetails", { data: item })}
     >
-      <View style={{ flexDirection: "row", alignItems: "center", gap: 7 }}>
+      <View style={{ flexDirection: "row", alignItems: "center", gap: 12 }}>
         <View style={styles.iconBg}>
           <Image source={PaymentReceivedIcon} />
         </View>

@@ -9,6 +9,8 @@ import PaymentActiveIcon from './payments-active.svg';
 import ProfileIcon from './profile.svg';
 import ProfileActiveIcon from './profile-active.svg';
 import NotificationIcon from './notification-icon.svg';
+import EyeIcon from './eye.svg';
+import EyeOff from './eye-off.svg';
 
 export {
   HomeIcon,
@@ -22,4 +24,6 @@ export {
   ProfileIcon,
   ProfileActiveIcon,
   NotificationIcon,
+  EyeIcon,
+  EyeOff,
 };

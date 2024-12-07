@@ -1,15 +1,14 @@
 // import * as React from 'react'
-import { View, Text, Image, TouchableOpacity } from "react-native";
+import { View, Text, Image, TouchableOpacity, StyleSheet } from "react-native";
 import { LocationIcon, PhoneIcon, ProfileIcon } from "../assets/images";
 import { globalStyles } from "../Components/constants/constants";
 import { useContext, useEffect, useState } from "react";
 import { profileDetail } from "../api/auth";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { AuthContext } from "../context/AuthContext";
-
+import Header from "../Components/Header";
 
 export default function Profile({ navigation }) {
-
   const { logout } = useContext(AuthContext);
   const [profileData, setProfileData] = useState({});
 
@@ -20,108 +19,116 @@ export default function Profile({ navigation }) {
   }, []);
 
   const handleLogout = () => {
-    AsyncStorage.clear()
-      .catch((error) => {
-        console.error("Error clearing storage:", error);
-      });
+    AsyncStorage.clear().catch((error) => {
+      console.error("Error clearing storage:", error);
+    });
     logout();
   };
 
   return (
-    <View
-      style={{
-        paddingHorizontal: 16,
-        paddingVertical: 16,
-        backgroundColor: "#F3F8F9",
-        flex: 1,
-        justifyContent: "space-between",
-      }}
-    >
-      <View>
-        <View style={{ alignItems: "center" }}>
-          <View
-            style={{
-              borderWidth: 2,
-              borderColor: "#49BFD4",
-              width: 90,
-              height: 90,
-              borderRadius: 45,
-              padding: 7,
-            }}
-          >
+    <>
+      <Header />
+      <View style={styles.container}>
+        <View>
+          <View style={{ alignItems: "center" }}>
             <View
               style={{
-                backgroundColor: "#fff",
-                width: "100%",
-                height: "100%",
+                borderWidth: 2,
+                borderColor: "#49BFD4",
+                width: 90,
+                height: 90,
                 borderRadius: 45,
-                alignItems: "center",
-                justifyContent: "center",
+                padding: 7,
               }}
             >
-              <Image source={ProfileIcon} />
+              <View
+                style={{
+                  backgroundColor: "#fff",
+                  width: "100%",
+                  height: "100%",
+                  borderRadius: 45,
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+              >
+                <Image source={ProfileIcon} />
+              </View>
+            </View>
+            <View style={{ paddingVertical: 16 }}>
+              <Text
+                style={{ textAlign: "center", fontSize: 26, color: "#000" }}
+              >
+                {profileData.name}
+              </Text>
+              <Text
+                style={{ textAlign: "center", fontSize: 18, color: "#49BFD4" }}
+              >
+                ID : {profileData.farmer_id}
+              </Text>
             </View>
           </View>
-          <View style={{ paddingVertical: 16 }}>
-            <Text style={{ textAlign: "center", fontSize: 26, color: "#000" }}>
-              {profileData.name}
-            </Text>
-            <Text
-              style={{ textAlign: "center", fontSize: 18, color: "#49BFD4" }}
-            >
-              ID : {profileData.farmer_id}
-            </Text>
+          <View style={globalStyles.card}>
+            <View>
+              <Image source={PhoneIcon} />
+            </View>
+            <View>
+              <Text style={{ color: "#747474", fontSize: 16 }}>
+                Phone number
+              </Text>
+              <Text style={{ fontSize: 18, color: "#000" }}>
+                +91 {profileData.phone}
+              </Text>
+            </View>
+          </View>
+          <View style={globalStyles.card}>
+            <View>
+              <Image source={LocationIcon} />
+            </View>
+            <View>
+              <Text style={{ color: "#747474", fontSize: 16 }}>Address</Text>
+              <Text style={{ fontSize: 18, color: "#000" }}>
+                {profileData.address}
+              </Text>
+            </View>
+          </View>
+          <View style={globalStyles.card}>
+            <View>
+              <Image source={PhoneIcon} />
+            </View>
+            <View>
+              <Text style={{ color: "#747474", fontSize: 16 }}>Society</Text>
+              <Text style={{ fontSize: 18, color: "#000" }}>
+                {profileData.society}
+              </Text>
+            </View>
           </View>
         </View>
-        <View style={globalStyles.card}>
-          <View>
-            <Image source={PhoneIcon} />
-          </View>
-          <View>
-            <Text style={{ color: "#747474", fontSize: 16 }}>Phone number</Text>
-            <Text style={{ fontSize: 18, color: "#000" }}>
-              +91 {profileData.phone}
+        <View>
+          <TouchableOpacity
+            onPress={handleLogout}
+            style={{
+              paddingVertical: 15,
+              alignItems: "center",
+              justifyContent: "center",
+              borderRadius: 5,
+            }}
+          >
+            <Text style={{ color: "red", fontWeight: "bold", fontSize: 18 }}>
+              Log out
             </Text>
-          </View>
-        </View>
-        <View style={globalStyles.card}>
-          <View>
-            <Image source={LocationIcon} />
-          </View>
-          <View>
-            <Text style={{ color: "#747474", fontSize: 16 }}>Address</Text>
-            <Text style={{ fontSize: 18, color: "#000" }}>
-              {profileData.address}
-            </Text>
-          </View>
-        </View>
-        <View style={globalStyles.card}>
-          <View>
-            <Image source={PhoneIcon} />
-          </View>
-          <View>
-            <Text style={{ color: "#747474", fontSize: 16 }}>Society</Text>
-            <Text style={{ fontSize: 18, color: "#000" }}>
-              {profileData.society}
-            </Text>
-          </View>
+          </TouchableOpacity>
         </View>
       </View>
-      <View>
-        <TouchableOpacity
-          onPress={handleLogout}
-          style={{
-            paddingVertical: 15,
-            alignItems: "center",
-            justifyContent: "center",
-            borderRadius: 5,
-          }}
-        >
-          <Text style={{ color: "red", fontWeight: "bold", fontSize: 18 }}>
-            Log out
-          </Text>
-        </TouchableOpacity>
-      </View>
-    </View>
+    </>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    paddingHorizontal: 16,
+    paddingVertical: 16,
+    backgroundColor: "#F3F8F9",
+    flex: 1,
+    justifyContent: "space-between",
+  },
+});

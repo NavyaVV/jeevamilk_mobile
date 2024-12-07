@@ -31,7 +31,7 @@ const PaymentDetails = ({ route }) => {
         <Image source={BackIcon} />
       </TouchableOpacity>
       <View>
-        <Text style={{ color: "#181818", fontSize: 24, fontWeight: "bold" }}>
+        <Text style={{ color: "#181818", fontSize: 24, fontWeight: "500" }}>
           Payment Details
         </Text>
       </View>
@@ -43,7 +43,7 @@ const PaymentDetails = ({ route }) => {
       <Header />
       <View>
         <TopHeader />
-        <View style={{ paddingHorizontal: 15 }}>
+        <View style={{ paddingHorizontal: 15, paddingTop: 45 }}>
           <View
             style={{
               flexDirection: "row",
@@ -52,7 +52,7 @@ const PaymentDetails = ({ route }) => {
             }}
           >
             <Text
-              style={{ fontSize: 20, color: "#4A4D4E", fontWeight: "bold" }}
+              style={{ fontSize: 20, color: "#4A4D4E", fontWeight: "500" }}
             >
               Milk amount
             </Text>
