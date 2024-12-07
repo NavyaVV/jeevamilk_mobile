@@ -1,54 +1,43 @@
-import React, {useEffect, useState} from 'react';
+import React, { useEffect } from 'react';
 import { StyleSheet, View } from 'react-native';
-import {GestureHandlerRootView} from 'react-native-gesture-handler';
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import Main from './router/Main.js';
 import Store from './context/Store';
-import {NavigationContainer} from '@react-navigation/native';
-import {createStackNavigator} from '@react-navigation/stack';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
 import { AuthProvider } from './context/AuthContext.js';
 import { initializeNotifications } from './services/NotificationService.js';
 import SplashScreen from 'react-native-splash-screen'
-  
+
 
 const Stack = createStackNavigator();
 
-function App() {
-  // const [splashScreen, setSplashScreen] = useState(true);
+function App () {
 
   useEffect(() => {
     initializeNotifications();
     SplashScreen.hide();
   }, []);
 
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     setSplashScreen(false);
-  //   }, 3000);
-  // }, []);
-
   return (
     <>
-      {/* {splashScreen ? (
-        <SplashScreen />
-      ) : ( */}
-        <GestureHandlerRootView style={styles.container}>
-          <AuthProvider>
-            <Store>
-              <View style={{flex: 1}}>
-                <NavigationContainer>
-                  <Stack.Navigator>
-                    <Stack.Screen
-                      name="Main"
-                      component={Main}
-                      options={{headerShown: false}}
-                      />
-                  </Stack.Navigator>
-                </NavigationContainer>
-              </View>
-            </Store>
-          </AuthProvider>
-        </GestureHandlerRootView>
-      {/* )} */}
+      <GestureHandlerRootView style={ styles.container }>
+        <AuthProvider>
+          <Store>
+            <View style={ { flex: 1 } }>
+              <NavigationContainer>
+                <Stack.Navigator>
+                  <Stack.Screen
+                    name="Main"
+                    component={ Main }
+                    options={ { headerShown: false } }
+                  />
+                </Stack.Navigator>
+              </NavigationContainer>
+            </View>
+          </Store>
+        </AuthProvider>
+      </GestureHandlerRootView>
     </>
   );
 }
