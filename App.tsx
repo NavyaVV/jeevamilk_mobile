@@ -8,7 +8,10 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { AuthProvider } from './context/AuthContext.js';
 import { initializeNotifications } from './services/NotificationService.js';
 import SplashScreen from 'react-native-splash-screen'
+import {PermissionsAndroid} from 'react-native';
 
+//Android - Requesting permissions for notifications
+PermissionsAndroid.request(PermissionsAndroid.PERMISSIONS.POST_NOTIFICATIONS);
 
 const Stack = createStackNavigator();
 

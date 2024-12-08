@@ -2,6 +2,7 @@
 import { Alert } from 'react-native';
 import messaging from '@react-native-firebase/messaging';
 
+// iOS - Requesting permissions for notifications
 export const requestUserPermission = async () => {
   const authStatus = await messaging().requestPermission();
   const enabled =
