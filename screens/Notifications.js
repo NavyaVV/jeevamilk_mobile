@@ -3,25 +3,28 @@ import React, { useEffect, useState } from "react";
 import SingleHeader from "../Components/SingleHeader";
 import TabSwitcher from "../Components/TabSwitcher";
 import api from "../api";
-import { FlatList } from "react-native-gesture-handler";
+import { FlatList } from "react-native";
 import NotificationCard from "../Components/NotificationCard";
 
 const Notifications = () => {
   const [activetab, setActiveTab] = useState("society");
   const [notifications, setNotifications] = useState([]);
   const [refresh, setRefresh] = useState(false);
+
+  const fetchData = async () => {
+    try {
+      const response = await api.get(
+        `activities/list-notifications/?notification_by=${activetab}`
+      );
+      setNotifications(response.data.app_data.data);
+    } catch (error) {
+      console.error(error);
+    } finally {
+      setRefresh(false);
+    }
+  };
+
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await api.get(
-          `activities/list-notifications/?notification_by=${activetab}`
-        );
-        setNotifications(response.data.app_data.data);
-        setRefresh(false);
-      } catch (error) {
-        console.error(error);
-      }
-    };
     fetchData();
   }, [activetab, refresh]);
 
@@ -35,19 +38,18 @@ const Notifications = () => {
         ]}
         onTabChange={(item) => setActiveTab(item)}
       />
-      {notifications.length === 0 ? (
-        <View style={styles.centered}>
-          <Text style={styles.errorText}>No notifications</Text>
-        </View>
-      ) : (
-        <FlatList
-          data={notifications}
-          renderItem={({ item }) => <NotificationCard item={item} />}
-          keyExtractor={(item) => item.id.toString()}
-          onRefresh={() => setRefresh(true)}
-          refreshing={refresh}
-        />
-      )}
+      <FlatList
+        data={notifications}
+        renderItem={({ item }) => <NotificationCard item={item} />}
+        keyExtractor={(item) => item.id.toString()}
+        refreshing={refresh}
+        onRefresh={() => setRefresh(!refresh)}
+        ListEmptyComponent={
+          <View style={styles.centered}>
+            <Text style={styles.errorText}>No notifications</Text>
+          </View>
+        }
+      />
     </View>
   );
 };
@@ -59,6 +61,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
+    marginTop: 50,
   },
   errorText: {
     color: "#49BFD4",

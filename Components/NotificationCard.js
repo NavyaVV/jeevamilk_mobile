@@ -12,8 +12,8 @@ const NotificationCard = ({item}) => {
           <Image source={TimeIcon} />
         </View>
       </View>
-      <View style={{marginTop:10}}>
-        <Text style={{color: '#898989'}}>{item.message}</Text>
+      <View>
+        <Text style={styles.message}>{item.message}</Text>
       </View>
     </View>
   );
@@ -23,15 +23,15 @@ export default NotificationCard;
 
 const styles = StyleSheet.create({
   container: {
-    paddingVertical: 10,
-    paddingHorizontal: 15,
+    padding: 24,
     borderBottomWidth: 1,
-    borderBottomColor: '#ccc',
+    borderBottomColor: '#EEEEEE',
+    gap: 10,
   },
   heading: {
     fontSize: 20,
     color: '#4A4D4E',
-    fontWeight: 'bold',
+    fontWeight: '500',
   },
   topCover: {
     flexDirection: 'row',
@@ -40,5 +40,12 @@ const styles = StyleSheet.create({
   },
   timeTest: {
     color: '#747474',
+    fontSize: 13,
+    fontWeight: '400',
   },
+  message: {
+    color: '#898989',
+    fontSize: 14,
+    fontWeight: '400',
+  }
 });
