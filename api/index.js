@@ -46,6 +46,7 @@ api.interceptors.request.use(
 api.interceptors.response.use(
   (response) => {
     // Handle successful responses
+    console.log(`API Endpoint: ${response.config.url}`, response);
     return response;
   },
   (error) => {

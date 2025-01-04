@@ -12,7 +12,7 @@ const Insurance = () => {
   useEffect(() => {
     cowsList().then((res) => {
       if (res.data.app_data.StatusCode === 6000) {
-        setCowData(res.data?.app_data.data);
+        setCowData(res.data?.app_data);
       }
       setRefresh(false);
     });
@@ -34,7 +34,7 @@ const Insurance = () => {
               <Text style={styles.cardDataText}>Total</Text>
             </View>
             <View style={styles.cowsCountRow}>
-              <Text style={styles.cowsCount}>{cowData?.cows_count || 0}</Text>
+              <Text style={[styles.cowsCount, {color: "#49BFD4",}]}>{cowData?.cows_count || 0}</Text>
               <Text style={styles.cowsText}>cows</Text>
             </View>
           </View>
@@ -64,22 +64,6 @@ const Insurance = () => {
           </View>
         </View>
       </View>
-
-      <View style={styles.topCover}>
-        <View style={styles.headCover}>
-          <View style={styles.imageContainer}>
-            <Image source={CowIcon} />
-          </View>
-          <Text style={styles.headerText}>Details</Text>
-        </View>
-        <View style={styles.dataHead}>
-          <Text style={{ width: "10%", color: "#9FA6AA" }}>No</Text>
-          <Text style={{ width: "20%", color: "#9FA6AA" }}>Name</Text>
-          <Text style={{ width: "20%", color: "#9FA6AA" }}>Breed</Text>
-          <Text style={{ width: "10%", color: "#9FA6AA" }}>Age</Text>
-          <Text style={{ width: "25%", color: "#9FA6AA" }}>Insurance</Text>
-        </View>
-      </View>
     </>
   );
 
@@ -87,16 +71,31 @@ const Insurance = () => {
     <>
       <Header />
       <FlatList
-        data={cowData}
+        data={cowData?.data}
         renderItem={({ item, index }) => (
-          <TableData
-            no={index + 1}
-            name={item.name}
-            breed={item.breed}
-            age={item.age < 10 ? `0${item.age}` : item.age}
-            insurance={item.insured ? "Insured" : "Uninsured"}
-            key={index}
-          />
+          <View style={styles.topCover}>
+            <View style={styles.headCover}>
+              <View style={styles.imageContainer}>
+                <Image source={CowIcon} />
+              </View>
+              <Text style={styles.headerText}>Details</Text>
+            </View>
+            <View style={styles.dataHead}>
+              <Text style={{ width: "10%", color: "#9FA6AA" }}>No</Text>
+              <Text style={{ width: "20%", color: "#9FA6AA" }}>Name</Text>
+              <Text style={{ width: "20%", color: "#9FA6AA" }}>Breed</Text>
+              <Text style={{ width: "10%", color: "#9FA6AA" }}>Age</Text>
+              <Text style={{ width: "25%", color: "#9FA6AA" }}>Insurance</Text>
+            </View>
+            <TableData
+              no={index + 1}
+              name={item.name}
+              breed={item.breed}
+              age={item.age < 10 ? `0${item.age}` : item.age}
+              insurance={item.insured ? "Insured" : "Uninsured"}
+              key={index}
+            />
+          </View>
         )}
         ListHeaderComponent={renderHeader}
         keyExtractor={(item, index) => index.toString()}
@@ -105,6 +104,11 @@ const Insurance = () => {
         onRefresh={() => {
           setRefresh(!refresh);
         }}
+        ListEmptyComponent={
+          <Text style={{ textAlign: "center", marginTop: 20 }}>
+            No cow data available.
+          </Text>
+        }
       />
     </>
   );

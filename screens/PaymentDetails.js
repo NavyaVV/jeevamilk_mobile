@@ -10,10 +10,23 @@ import { COLORS } from "../Components/constants/constants";
 const PaymentDetails = ({ route }) => {
   const { id } = route.params.data;
   const [details, setDetails] = useState({});
+
   useEffect(() => {
-    api.get(`payments/single-farmer-payment-history/${id}/`).then((res) => {
-      setDetails(res.data.app_data.data);
-    });
+    const fetchData = () => {
+      try {
+        const response = api.get(
+          `payments/single-farmer-payment-history/${id}/`
+        );
+        if (response.data.app_data.StatusCode === 6000) {
+          setDetails(response.data.app_data.data);
+        } else if (response.data.app_data.StatusCode === 6001) {
+          console.log(response.data.app_data.data.message);
+        }
+      } catch (error) {
+        console.error(error);
+      }
+    };
+    fetchData();
   }, [id]);
 
   const navigation = useNavigation();
@@ -51,9 +64,7 @@ const PaymentDetails = ({ route }) => {
               justifyContent: "space-between",
             }}
           >
-            <Text
-              style={{ fontSize: 20, color: "#4A4D4E", fontWeight: "500" }}
-            >
+            <Text style={{ fontSize: 20, color: "#4A4D4E", fontWeight: "500" }}>
               Milk amount
             </Text>
             <View

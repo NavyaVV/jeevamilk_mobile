@@ -12,7 +12,9 @@ const TableData = ({ no, name, breed, age, insurance }) => {
         borderColor: "#E3F5FF",
       }}
     >
-      <Text style={{ width: "10%", color: "#4A4D4E", fontSize: 14 }}>{no}</Text>
+      <Text style={{ width: "10%", color: "#4A4D4E", fontSize: 14 }}>
+        {no < 10 ? `0${no}` : no}
+      </Text>
       <Text style={{ width: "20%", color: "#4A4D4E", fontSize: 14 }}>
         {name}
       </Text>

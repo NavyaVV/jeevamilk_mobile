@@ -15,11 +15,10 @@ export default function Payment({ navigation }) {
       const response = await api.get("payments/farmer-payment-history/");
       if (response.data.app_data.StatusCode === 6000) {
         setPaymentData(response.data.app_data.data);
+      } else if (response.data.app_data.StatusCode === 6001) {
+        console.log(response.data.app_data.data.message);
       } else {
-        console.error(
-          "Unexpected StatusCode:",
-          response.data.app_data.StatusCode
-        );
+        console.log("Unknown error occurred while fetching payment data.");
       }
     } catch (error) {
       console.error("Error fetching payment data:", error);
